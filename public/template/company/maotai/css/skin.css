@@ -1,0 +1,235 @@
+.infoList  li a{width:300px;}
+/*首页焦点图-自适应宽度*/
+/* 下面是前/后按钮代码，如果不需要删除即可 */
+.slideBox .prev{position:absolute; left:3%; top:50%; margin-top:-25px; display:block; width:32px; height:52px; background:url(/template/company/maotai/img/2019050819091366502.png) no-repeat; filter:alpha(opacity=50);opacity:0.5; }
+.slideBox .next{ position:absolute; left:3%; top:50%; margin-top:-25px; display:block; width:32px; height:52px; background:url(/template/company/maotai/img/2019050819092283325.png) -110px 5px no-repeat; filter:alpha(opacity=50);opacity:0.5;   }
+.slideBox .next{ left:auto; right:3%; background-position:3px 0px; }
+.slideBox .prev:hover,
+.slideBox .next:hover{ filter:alpha(opacity=100);opacity:1;  }
+.slideBox .prevStop{ display:none;  }
+.slideBox .nextStop{ display:none;  }
+
+.slideBox{ width:100%; overflow:hidden; position:relative; }
+.slideBox .hd{ overflow:hidden; position:relative; z-index:1;margin-top:-32px;height:30px;line-height:30px;text-align:center; }
+.slideBox .hd ul{ overflow:hidden; zoom:1; text-align:center; }
+.slideBox .hd ul li{ display:inline-block; width:12px;height:12px;margin-right:12px; text-align:center;border-radius:50%; background:#fff; cursor:pointer; text-indent:99em;overflow:hidden; }
+.slideBox .hd ul li.on{ background:#710304;  }
+
+
+
+.slideBox .bds{position:relative;}
+.slideBox .bds ul{width: 100%;  }
+.slideBox .bds li{ zoom:1; vertical-align:middle; }
+.slideBox .bds li.on{ background: red;}
+.slideBox .bds ul li img{width: 100%;height:428px;}
+.slideBox .bds ul li a{display: block;}
+
+/*通知公告*/
+.txtScroll-left{    overflow: hidden;height: 24px; position: relative; padding: 10px 0;background: #000; }
+.txtScroll-content{margin:0 auto;max-width:1200px;}
+.tgLogo{    margin: 0 20px;position: absolute; top: 14px; font-size: 16px; color: #fff;}
+.mores {position:absolute;right:24px;top:14px;}
+.mores a{font-size:16px;color:#fff;}
+.txtScroll-left .bd{padding-left:110px;}
+.txtScroll-left .infoList li{ height:32px; line-height:24px; float:left;width:45%  }
+.txtScroll-left .infoList li *{font-size:16px;color:#fff;}
+.txtScroll-left .infoList li .dates{ padding-left:32px; }
+
+.ghLeft, .maoLeft1, .maoLeft2 {width:40%;margin-right:18px;}
+.ghRight, .maoRight1, .maoRight2{width:58%;}
+.maoLeft1, .maoRight1{margin-bottom:50px;}
+.maoLeft, .maoRight{margin-bottom:20px;}
+.ygfcBox{margin-top:50px;}
+.maoLeft {width:600px;}
+.maoRight{width:580px;}
+/*图片新闻轮播*/
+
+.newsBox{width:100%;position:relative;margin-bottom:40px;}
+.newsBox .HB{overflow:hidden;}
+.newsBox .HB .autoPlay li{float:left;position:relative;width:100%;height:250px;}
+.newsBox .HB .autoPlay li .Image{height:100%;background:#000;margin:0;}
+.newsBox .HB .autoPlay li .Image img{display:block;width:100%;height: 100%;margin:0 auto;object-fit:cover;}
+.newsBox .HB .autoPlay li .Title{position:absolute;bottom:0;left:0;z-index:30;width:100%;background:rgba(0,0,0,.5); margin: 0;}
+
+.newsBox .HB .autoPlay li .Title a{display:block;line-height:40px;font-size:16px;color:#fff;text-indent:1em}
+.newsBox .PLAYbtn{position:absolute;bottom:14px;right:15px;z-index:60}
+.newsBox .PLAYbtn ul li{display:inline-block;width:9px;height:9px;margin-right:.5em;border:1px solid #fff;border-radius:50%;cursor:pointer;text-indent:99em;overflow:hidden;}
+.newsBox .PLAYbtn ul li.on{width:9px;height:9px;background:#710304;}
+/*新闻*/
+.mt_xw_nr .mt_xw {    margin: 16.5px 25px;}
+.mt_xw_nr .mt_xw li{line-height:30px;position:relative;}{}
+.mt_xw_nr .mt_xw li i{background: #333; width: 3px;height: 3px; display: inline-block;position:absolute;top:15px;left:0px;border-radius:50%;}
+.mt_xw_nr .mt_xw li a{font-size: 16px;color: #333;margin-left:12px;}
+.mt_xw_nr .mt_xw li:hover a, .mt_xw_nr .mt_xw li:hover i, .mt_xw_nr .mt_xw li:hover span{color:#710304;}
+.mt_xw_nr .mt_xw li span{position:absolute;right:0;top:0;font-size:15px;color:#333;}
+/*专题*/
+.div_img { padding-top: 50px;width: 1200px; margin: 0 auto; overflow: hidden;padding-bottom:60px;}
+
+/* 服务中心 */
+.mt_fwzx{margin:0 auto;max-width:1200px;padding-bottom:60px;}
+.fwzxa_list { width:1196px; height: 359px;position: relative;top: 0;left: 0; -webkit-box-shadow:1px 1px 30px #333333; box-shadow:2px 2px 20px #e3e3e3;}
+.fwzxa_list li { width: 238px; height: 178px; float: left; text-align: center; }
+.fwzxa_list li p { font-size: 18px; color: #555; }
+.fwzxa_list li a{display: block; padding-bottom: 50px;}
+.fwzxa_list li img {    margin: 30px 0 30px;    height: 50px;}
+.fwzxa_list li img.hov { display: none; }
+.fwzxa_list li:hover { -moz-box-shadow:2px 2px 20px #333333; -webkit-box-shadow:2px 2px 20px #333333; box-shadow:1px 1px 30px #e3e3e3; position: relative; border:1px solid #710304 !important; height: 177px;width:237px; }
+.fwzxa_list li:hover img.nor { display: none; }
+.fwzxa_list li:hover img.hov { display: inline-block; }
+.fwzxa_list li:hover p { color: #710304;    font-weight: bold;}
+#boder0,#boder1,#boder2,#boder3{    border-right: 1px solid #e3e3e3; border-bottom: 1px solid #e3e3e3;}
+#boder4{border-bottom: 1px solid #e3e3e3;}
+#boder5,#boder6,#boder7,#boder8{ border-right: 1px solid #e3e3e3;}
+
+
+/* 快捷服务 */
+
+.kjBg{background:url(/template/company/maotai/img/2019042319041442360.png) no-repeat center;}
+.kjTab{width:240px;margin:auto;padding-bottom:70px;}
+.kjTab li{float: left;}
+.kjTab li a{color:#333333;font-size:18px;padding-bottom:16px;display:block;}
+.kjTab li.on{}
+.kjTab li.on a{color:#710304;font-weight:bold;font-size:18px;background: url(/template/company/maotai/img/2019060611272370068.png) no-repeat bottom;}
+.kjTab li a:hover{color:#710304;font-size:18px;background: url(/template/company/maotai/img/2019060611272370068.png) no-repeat bottom;}
+.kjfw{width:1340px; min-width: 1340px; margin:0 auto;  overflow: hidden; padding-bottom:50px;}
+.kjfw-L,.kjfw-R{width: 34px; height: 30px; cursor: pointer; margin-top:150px;}
+.kjfw-L{background:  url(/template/company/maotai/img/2019042323452741381.png) 0 0 no-repeat;margin-right:36px;}
+.kjfw-R{background:  url(/template/company/maotai/img/2019042323453477897.png) 0 0 no-repeat;margin-left:36px;}
+.kjfw-C{width: 1200px; height: 400px; overflow: hidden; position: relative;}
+.kjfw-ul{height:370px;overflow: hidden;}
+.kjfw-ul_img{display:block;width:270px;}
+.holder{overflow:hidden;width:270px;height:370px;float:left;position:relative;background-color:#000;margin-right:30px;background: #fff;}
+.kjfw-ul_img>img{width: 100%;max-height: 320px;}
+.holder span{display:block;}
+
+.kjfw_tit{background-color:#efeeee;position:absolute;bottom:0;left:0px;text-align: center;  width: 100%;line-height: 50px;height: 50px;border-top: 2px solid #710304;}
+.textnr{padding: 6px 10px 6px 10px;line-height:26px;position:absolute;bottom:-200px;left:0;z-index:20;font-size:16px;width:257px;background-color:#efeeee;border-top: 2px solid #710304;height: 130px;}
+.holder .kjfw-morekjfw-more{width:100%;height:40px;position:absolute;left:0;top:50%;margin-top:220px;z-index:80;}
+.kjfw-morekjfw-more>a{display:block;background: #710304; width: 40px;height: 40px; text-align: center;color: #fff;line-height: 40px;border-radius: 50px;margin:0 auto;}
+.kjfw_tit>a{font-size:18px;color:#333333;}
+.kjfw_titt>a{    text-align: center;color: #c0a062;width: 100%; float: left; font-weight: bold; font-size: 18px;margin-top: 20px;}
+.kjfw_ext123{    text-align: center; color: #333333; width: 100%; float: left; font-size: 16px;margin-top: 10px;margin-bottom: 5px;}
+.kjfw_ext4{    text-align: center;color: #333333;width: 100%;float: left;font-size: 16px;}
+/*
+.holder:hover .kjfw_tit{display: none;}
+*/
+
+.holder .kjfw-ul_img>img{
+    -o-transition: 		all 0.5s ease-out 0s;
+    -webkit-transition:         all 0.5s ease-out 0s;
+    -moz-transition: 	        all 0.5s ease-out 0s;
+    transition: 		all 0.5s ease-out 0s;
+}
+.holder:hover .kjfw-ul_img>img{width:90%;height: 60%;z-index: 666;padding:5%;}
+
+
+
+
+
+/*投资者关系*/
+
+.xinwenListBox li{ min-height:164px;float: left;max-width:380px;    box-shadow: 2px 2px 20px #e3e3e3; background: #fff;padding-top: 30px; padding-bottom: 30px; border-radius:10px;}
+.xinwenListBox li:first-child{border-top:none;}
+.xinwenListBox li .zuo{float:left;width:80px;height:40px;}
+
+.xinwenListBox li .zuo span{text-align:center;font-size:16px;display: block;    color: #474747;}
+.xinwenListBox li .rightt{   width: 280px;float: right;padding-right: 20px;}
+.ri{margin-bottom:10px;}
+.xinwenListBox li .rightt .biaoti a{color:#474747;font-size:20px;line-height: 24px;    font-weight: bold;    display: block;}
+.xinwenListBox li .rightt .summaryy{color:#707070;font-size: 16px;margin-top:10px;    line-height: 24px;}
+.bottomm{ width: 100%;float: left;text-align: center; padding-bottom: 10px;padding-top:30px;}
+.bottomm a{border: 1px solid #c0a062; padding: 5px 25px;font-size: 16px;color: #c0a062;    border-radius: 20px;}
+.bottomm a img{margin-left:30px;}
+.bottomm a:hover{border: 1px solid #710304;    color: #710304;}
+.bottomm a:hover img{}
+.yearAndMonth{color: #707070 !important ;}
+#id_1{    margin: 0 30px;}
+/*背景*/
+.bti{margin: 0 auto;width: 240px;height: 45px;padding-top: 60px; padding-bottom: 40px;}
+.bti_content{    background: url(/template/company/maotai/img/2019060611362531409.png) no-repeat center 0;height: 45px;line-height: 45px;text-align: center;font-size: 24px;color: #333333;}
+.bti_content a{font-size: 24px;color: #333333;}
+.bgc_c{background: rgba(206, 204, 195, 0.1);}
+
+/*疫情机器人*/
+.yqjqr {position: fixed;right: 20px;bottom: 20px;z-index: 9999;width: 120px;}
+.yqjqr .btn_gb {text-align: right;font-size: 14px;color: #333;cursor: pointer;}
+.yqjqr .jqr_img img{width:100%;}
+.back_top{display: none !important;}
+
+
+
+/*手机端1200px*/
+@media only screen and (min-width: 100px) and (max-width: 1200px) {
+
+}
+
+
+/*手机端960px*/
+@media only screen and (min-width: 100px) and (max-width: 960px) {
+
+}
+
+
+/*手机端768px*/
+@media only screen and (min-width: 100px) and (max-width: 768px) {
+.maotai_content{width:95%;margin:auto;}
+/*banner*/
+.mtgf_banner {margin-top:4px;}
+.slideBox .bds ul li img{height:94px;}
+
+.slideBox .prev, .slideBox .next{display:none;}
+.txtScroll-left{padding:0;height:auto;}
+.tgLogo{margin:0 10px;top:6px;}
+.txtScroll-left .bd{padding-left:100px;}
+.txtScroll-left .infoList li{height:30px;line-height:30px;}
+
+.bti{text-align:center;}
+.bti_content{font-size:18px;font-weight:600;}
+.bti_content a{font-size:18px;font-weight:600;}
+
+.yqjqr{width:80px !important;}
+/*茅台党建*/
+.div_img{width:100%;padding:24px 0;}
+.div_img img{width:100%;}
+
+/*新闻资讯*/
+.bti{width:auto;height:auto;padding:24px 0;}
+.mtgf_xwlb, .mtgf_xwdt, .mt_fwzx{width:100%;height:auto;}
+.newsBox{position:static;margin-bottom:0;overflow:hidden;}
+.newsBox .PLAYbtn{bottom:24px;position:relative;float:right;}
+.mt_xw_nr .mt_xw{margin:18px 0;}
+.mt_xw_nr .mt_xw li{line-height:36px;border-bottom:1px dashed #333;}
+.mt_xw_nr .mt_xw li i{top:17px;}
+.mt_xw_nr .mt_xw li a{font-size:14px;margin-right:8px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width:74.5%;display:block;}
+.mt_xw_nr .mt_xw li span{font-size:13px;}
+
+/*产品中心*/
+.kjfw{width:100%;min-width:auto;position:relative;padding-bottom:24px;}
+.kjfw-L{position:absolute;top:44px;left:0;z-index:100;background:url(/template/company/maotai/img/2019050822590634761.png);width:30px;}
+.kjfw-R{position:absolute;top:44px;right:0;z-index:100;background:url(/template/company/maotai/img/2019050822585999299.png);width:30px;}
+.kjTab{padding-bottom:24px;}
+
+
+/*服务中心*/
+.fwzxa_list{width:100%;height:auto;overflow:hidden;}
+.fwzxa_list li{width:33%;}
+#boder4{border-right:1px solid #e3e3e3;}
+#boder5, #boder6, #boder7, #boder8{border-bottom: 1px solid #e3e3e3;}
+#boder5,#boder2,#boder8{ border-right:1px solid transparent;border-bottom: 1px solid #e3e3e3;}
+#boder9{border-right:1px solid #e3e3e3;border-bottom:1px solid #e3e3e3;}
+.fwzxa_list li:hover {border:none !important;border-bottom:1px solid #e3e3e3;width:33%;height:179px;;}
+.fwzxa_list li:hover img.nor { display: inline-block; }
+.fwzxa_list li:hover img.hov { display: none; }
+
+
+/*投资者关系*/
+.xinwenListBox{width:96%;padding-bottom:24px;}
+.xinwenListBox li{width:100%;margin:10px 0 !important;border-radius:4px;max-width:initial;}
+.xinwenListBox li:last-child{margin-bottom:0px;}
+.xinwenListBox li .zuo{width:18%;}
+.xinwenListBox li .rightt{width:80%;padding-right:0;}
+.xinwenListBox li .rightt .biaoti a{font-size:16px;}
+.xinwenListBox li .rightt .summaryy{font-size:14px;}
+.xinwenListBox li .zuo span{font-size:14px;margin-top:4px;}
+
+}

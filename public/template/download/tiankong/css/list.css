@@ -1,0 +1,61 @@
+.list-rec-box{
+    height: 99px;
+    border: 1px solid #e9e8d5;
+    background: #fff;
+    position: relative;
+    padding-left: 31px;
+}
+.list-rec-title{
+    background-position: 0 -120px;
+    width: 27px;
+    position: absolute;
+    left: 7px;
+    top: -4px;
+    height: 86px;
+}
+.list-rec-box .soft-list{
+    height: 99px;
+    overflow: hidden;
+}
+.list-rec-box .soft-list li{
+    margin-top: 12px;
+    width: 94px;
+}
+
+.main-list-con{
+    background: #fff;
+    border: 1px solid #e9e8d5;
+    border-top: none;
+    overflow: hidden;
+    zoom: 1;
+}
+.list-gotop{
+    float: right;
+    margin-top: 30px;
+    padding-right: 50px;
+}
+
+.search-title{
+    height: 36px;
+    line-height: 36px;
+    padding: 0 10px;
+    color: #666;
+    background: #edecd9;
+    border-radius: 3px 3px 0 0;
+}
+.hz-ext{
+    width: 220px;
+    height: 62px;
+    background: url(/template/download/tiankong/img/sub_ext.png) no-repeat;
+    padding-top: 18px;
+    text-align: center;
+    line-height: 22px;
+    color: #666;
+}
+.list-page{
+    min-height: 78px;
+    *height: 78px;
+}
+.lay-790 {
+    overflow: hidden;
+}

@@ -1,0 +1,36 @@
+#mainBody { width:1002px; height:259px; }
+
+.zuo { float:left; width:296px; height:259px; }
+.zuot { float:left; width:281px; height:30px; background:url(/template/company/huashengjiaju/img/bj2.jpg) no-repeat; }
+.zuot_y { float:right; width:49px; height:20px; padding-top:10px; }
+.zuok { float:left; width:264px; height:120px; background:url(/template/company/huashengjiaju/img/bj4.jpg) no-repeat left top #FFFFFF; padding-left:10px; padding-top:63px; overflow:hidden; padding-right:7px; line-height:23px; color:#000000; }
+.zuod { float:left; width:281px; height:46px; background:url(/template/company/huashengjiaju/img/bj5.jpg) no-repeat; }
+.zhong { float:left; width:475px; height:259px; }
+.zhongt { float:left; width:460px; height:41px; background:url(/template/company/huashengjiaju/img/bj6.jpg) no-repeat; }
+.zhongk { float:left; width:445px; height:172px; background:#FFFFFF; padding-left:15px; }
+.zhongd { float:left; width:460px; height:46px; background:url(/template/company/huashengjiaju/img/bj7.jpg) no-repeat; }
+.you { float:left; width:231px; height:259px; }
+.yout { float:left; width:231px; height:38px; background:url(/template/company/huashengjiaju/img/bj8.jpg) no-repeat; }
+.youk { float:left; width:211px; height:167px; background:#FFFFFF; padding-left:10px; padding-right:10px; padding-bottom:8px; }
+.youd { float:left; width:231px; height:46px; background:url(/template/company/huashengjiaju/img/bj9.jpg) no-repeat; }
+
+.picture{ float:left; width:200px; height:170px; overflow:hidden; padding:0px;}
+.picture1 a {
+    width:180px;
+    height:140px;
+    text-align:center;
+	vertical-align:middle;
+	background-color:#FFFFFF;
+	border:1px solid #CCCCCC;
+	overflow:hidden;
+	display:table-cell;
+	/* position:relative;  */
+	*display: block;
+    *font-size: 136px; /*æ­¤å¤„çš„font-sizeä¸ºheighté™¤ä»¥1.14 */
+  }
+.picture1 a:hover { border:solid 1px #009900; }
+
+.picture2 {width:180px; height:25px; text-align:center; line-height:25px;}
+.picture2 a { color:#000000; }
+.picture2 a:hover { color:#009900; }
+.picture1 img{ vertical-align:middle; border:0;}

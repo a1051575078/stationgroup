@@ -1,0 +1,58 @@
+ul {list-style:none;}
+li{list-style:none;}
+.accordion-3-container{width:272px; background:#ffffff;margin:0 auto}
+/*一级*/
+.accordion-3-container li.level-0{width:272px; line-height:41px; font-size:16px; }
+.accordion-3-container li.level-0 a{width:232px;padding-left:40px; background:url(/template/company/putian/img/menu-link.jpg) left center no-repeat;display:inline-block;line-height:41px;}
+.accordion-3-container li.level-0 a:link,.accordion-3-container li.level-0 a:visited,.accordion-3-container li.level-0 a:active{color:#333; text-decoration:none;}
+.accordion-3-container li.level-0 a:hover{ color:#ffffff; background:url(/template/company/putian/img/menu-hover.jpg) left center no-repeat;}
+/**/
+.accordion-3-container li.level-0 div.sub{display: none;}
+.accordion-3-container li.breadcrumb div.sub{display:block;}
+.accordion-3-container li.level-0 div.sub li.level-1 div.sub{display:none;}
+.accordion-3-container li.level-0 div.sub li.breadcrumb div.sub{display:block;padding-left: 5px;padding-right:20px;}
+
+.accordion-3-container li.breadcrumb div.sub ul.sub-0{
+    border-bottom: 1px solid #ededed;
+    padding-bottom: 10px;
+    margin: 0;
+}
+.accordion-3-container li.breadcrumb div.sub ul.sub-0 li.level-1{
+    color: #333;
+    padding-left: 23px;
+}
+.accordion-3-container li.breadcrumb div.sub ul.sub-0 li.level-1 a{ border:none;}
+.accordion-3-container li.level-0 div.sub ul.sub li.level-1 a{}
+/*一级点击后*/
+.accordion-3-container li.breadcrumb a{color:#6e6e6e;background:url(/template/company/putian/img/menu-hover.jpg) left center no-repeat;color:#ffffff;display: inline-block;line-height: 41px;width: 232px;padding-left: 40px;}
+.accordion-3-container li.breadcrumb a:link,.accordion-3-container li.breadcrumb a:visited,.accordion-3-container li.breadcrumb a:active{color:#ffffff; text-decoration:none;}
+.accordion-3-container li.breadcrumb a:hover{ color:#ffffff;}
+/*二级默认*/
+.accordion-3-container li.level-0 div.sub ul.sub li.level-1 a{width: 215px;display:inline-block;line-height:34px;background:#ffffff;}
+.accordion-3-container li.level-0 div.sub ul.sub li.level-1 a:link,.accordion-3-container li.level-0 div.sub ul.sub li.level-1 a:visited,.accordion-3-container li.level-0 div.sub ul.sub li.level-1 a:active{
+    color: #666;
+    font-size: 14px;
+    background: url(/template/company/putian/img/hdian.jpg) no-repeat 15px center;
+    padding-left: 25px;
+}
+.accordion-3-container li.level-0 div.sub ul.sub li.level-1 a:hover{ color:#4866af;    background: url(/template/company/putian/img/ldian.jpg) no-repeat 15px center;}
+/*二级点击后*/
+.accordion-3-container li.level-0 div.sub ul.sub li.breadcrumb a{line-height:34px; no-repeat;width:215px;padding-left:20px; }
+.accordion-3-container li.level-0 div.sub ul.sub li.breadcrumb a:link,.accordion-3-container li.level-0 div.sub ul.sub li.breadcrumb a:visited,.accordion-3-container li.level-0 div.sub ul.sub li.breadcrumb a:active{
+    color: #4866af;
+    font-size: 14px;
+    padding-left: 25px;
+    background: url(/template/company/putian/img/ldian.jpg) no-repeat 15px center;
+}
+.accordion-3-container li.level-0 div.sub ul.sub li.breadcrumb a:hover{ color:#4866af;}
+/*三级级默认*/
+.accordion-3-container li.level-0 div.sub ul.sub li.level-1 div.sub ul.sub li.level-2 a{ border-bottom:1px solid #f0f0f0; font-weight:bold;}
+.accordion-3-container li.level-0 div.sub ul.sub li.level-1 div.sub ul.sub li.level-2 a{ display:inline-block;line-height:34px;}
+.accordion-3-container li.level-0 div.sub ul.sub li.level-1 div.sub ul.sub li.level-2 a:link,.accordion-3-container li.level-0 div.sub ul.sub li.level-1 div.sub ul.sub li.level-2 a:visited,.accordion-3-container li.level-0 div.sub ul.sub li.level-1 div.sub ul.sub li.level-2 a:active{color:#46494b; font-weight:normal; font-weight:bold;}
+.accordion-3-container li.level-0 div.sub ul.sub li.level-1 div.sub ul.sub li.level-2 a:hover{ color:#014f9a; font-weight:bold;}
+/*三级点击后*/
+.accordion-3-container li.level-0 div.sub ul.sub li.level-1 div.sub ul.sub li.active a{line-height:34px;width: 170px;}
+.accordion-3-container li.level-0 div.sub li.breadcrumb div.sub li{padding-left:0}
+.accordion-3-container li.level-0 div.sub li.breadcrumb div.sub li a{padding-left:0}
+.accordion-3-container li.level-0 div.sub ul.sub li.level-1 div.sub ul.sub li.active a:link,.accordion-3-container li.level-0 div.sub ul.sub li.level-1 div.sub ul.sub li.active a:visited,.accordion-3-container li.level-0 div.sub ul.sub li.level-1 div.sub ul.sub li.active a:hover,.accordion-3-container li.level-0 div.sub ul.sub li.level-1 div.sub ul.sub li.active a:active{color:#014f9a; font-weight:bold;}
+/**************************************end******************************************************************/********/

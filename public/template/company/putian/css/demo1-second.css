@@ -1,0 +1,198 @@
+
+@charset "utf-8";
+ul,li{margin:0px;padding:0px;}
+a{    text-decoration: none !important;}
+/*header*/
+.pt-body{width:100%;font-family:"Microsoft Yahei";}
+.header{    z-index: 999;width: 100%;top: 0;}
+.header-con{width:1200px;margin:auto;}
+.header-logo{float:left;}
+.header-menu{float:left;width:840px;height:90px;margin-left: 110px;}
+.menu-top{font-size: 14px;margin-top: 20px;color:#adadad;height: 20px;}
+.wzq{    float: right;width: 87px;background: url(/template/company/putian/img/wzq.png) no-repeat right center;margin-right: 20px;}
+.wzq a{color:#adadad}
+.tzz{float:right;    margin-right: 25px; background: url(/template/company/putian/img/sj.png) no-repeat right center;width:55px;}
+.yy,.yythis{float:right; }
+.yy select{width:40px;border:0; background: url(/template/company/putian/img/sj.png) no-repeat right center; appearance:none;-moz-appearance:none;-webkit-appearance:none;color: #adadad;margin-right: 10px;}
+.menu-con{    clear: both;float: right;margin-top: 9px;}
+.yy select::-ms-expand{ display: none; }
+.yythis{width:40px;border:0; background: url(/template/company/putian/img/sj.png) no-repeat right center;color: #adadad;margin-right: 10px;position: relative;}
+.yy{width:40px;border:0; background: url(/template/company/putian/img/sj.png) no-repeat right center;color: #adadad;margin-right: 10px;position: relative;}
+.yy ul{display: none;}
+.yy ul li{list-style: none;background: none;}
+
+.yythis ul li{list-style: none; padding: 5px 9px;}
+.menu-con ul li{font-size:16px;    list-style-type: none;float:left;margin: 0 13px;    line-height: 42px;cursor: pointer;}
+.menu-con ul li.active{border-bottom:2px solid #4866af;color:#4866af;}
+.menu-con ul li:hover{border-bottom:2px solid #4866af;color:#4866af;}
+.header-other{float:right}
+/*footer*/
+.footermenu{width:100%;height:46px;background:#3c5591;line-height:46px;    margin-top: 40px;}
+.footermenu-con{width:1200px;margin:auto;}
+.footer{width:100%;height: 128px;background:#4866af;}
+.footer-con{width:1200px;margin:auto;}
+.footerlist{}
+.footerlist ul li{color:#fff;list-style-type: none;padding:0 10px;float: left;
+    line-height: 46px;font-size:14px;}
+.footerlist .fmshu{padding: 0 20px 0 10px;
+    font-size: 12px;
+    color: #5b76b7;}
+
+.footerlist ul li.fma{background:url(/template/company/putian/img/fma.png) no-repeat left center;    padding-left: 25px;
+    font-size: 16px;
+    font-weight: bold;}
+.footerlist ul li.fmb{background:url(/template/company/putian/img/fmb.png) no-repeat left center;padding-left: 20px;}
+.footerlist ul li.fmc{background:url(/template/company/putian/img/fmc.png) no-repeat left center;padding-left: 20px;}
+.footerlist ul li.fmd{background:url(/template/company/putian/img/fmd.png) no-repeat left center;padding-left: 20px;}
+.footerlist ul li.fme{background:url(/template/company/putian/img/fme.png) no-repeat left center;padding-left: 20px;}
+.footerlist ul li.fmf{background:url(/template/company/putian/img/fmf.png) no-repeat left center;padding-left: 20px;}
+.footerlist ul li.fmg{background:url(/template/company/putian/img/fmg.png) no-repeat left center;padding-left: 20px;}
+.footerlist ul li.fmh{background:url(/template/company/putian/img/fmh.png) no-repeat left center;padding-left: 20px;}
+.top{width:44px;height:40px;background:url(/template/company/putian/img/top.jpg) no-repeat;float: right;
+    text-align: center;
+    line-height: 28px;
+    color: #fff;}
+
+.ftall{padding-top: 8px;color:#c5cce2;font-size:14px;}
+.ftlogo{float:left;padding-top: 19px;}
+.fm{float:left;margin-left:25px;width:740px;}
+.fm ul li{
+    list-style-type: none;
+}
+.fmtop ul li{float:left;padding:0 5px;    letter-spacing: 3px;}
+.fmtop{
+    line-height: 30px;
+    height: 41px;
+    background:url(/template/company/putian/img/line.jpg) repeat-x bottom;
+}
+.fmbottom ul li{width:350px;float:left;line-height:32px;}
+.fmbottom{margin-top: 10px;}
+.yqlj{float:right;width:222px;padding-top: 15px;}
+.yqljt{color:#fff;    font-size: 16px;
+    font-weight: bold;    line-height: 30px;background:url(/template/company/putian/img/yqlj.png) no-repeat left center;padding-left:25px;}
+.yqljcd select{border:1px solid #6d85bf;border-radius: 5px;width:100%;box-sizing: border-box;background:#536fb4;color:#c5cce2;margin-top: 10px;padding: 6px 0;}
+.gywm-banner{width:100%; background:url(/template/company/putian/img/gywm.jpg) no-repeat center top;    height: 300px;}
+.xxzx-banner{width:100%; background:url(/template/company/putian/img/xxzx.jpg) no-repeat center top;    height: 300px;}
+.cybj-banner{width:100%; background:url(/template/company/putian/img/cybj.jpg) no-repeat center top;    height: 300px;}
+.djgz-banner{width:100%; background:url(/template/company/putian/img/djgz.jpg) no-repeat center top;    height: 300px;}
+.xxgk-banner{width:100%; background:url(/template/company/putian/img/xxgk.jpg) no-repeat center top;    height: 300px;}
+.qywh-banner{width:100%; background:url(/template/company/putian/img/qywh.jpg) no-repeat center top;    height: 300px;}
+.tzzgx-banner{width:100%; background:url(/template/company/putian/img/tzzgx.jpg) no-repeat center top;    height: 300px;}
+.fzlm-banner{width:100%; background:url(/template/company/putian/img/fzlm.jpg) no-repeat center top;    height: 300px;}
+.rlzy-banner{width:100%; background:url(/template/company/putian/img/rlzy.jpg) no-repeat center top;    height: 300px;}
+.content{width:1200px;margin:0 auto;margin-top: 30px;}
+.content-left{float:left; width:293px; margin-right:52px;}
+.content-right{width:855px; float:right; position:relative}
+.content-path{position:absolute;top: 20px;right:0;background: url(/template/company/putian/img/hm.jpg) 20px center no-repeat;padding-left: 38px;}
+.content-path a{color:#999; text-decoration:none}
+
+/*Ã¦â€"Â°Ã©â€"Â»Ã¤Â¸Â­Ã¥Â¿Æ'*/
+.cfgc-xwzx{ width:930px;}
+.cfgc-xwzx-title{ width:900px; height:32px; line-height:32px; background:url(/template/company/putian/img/contentmenu-titlebg.jpg) 0px 8px no-repeat; padding-left: 15px; font-size:16px; color:#2961ba;}
+.cfgc-xwzx-content{ width:930px; margin:0px auto;}
+.xwzx-pnews-item{width: 857px;height: 270px;margin-bottom: 40px;}
+.xwzx-pnews-item-pic{width: 427px;float:left;height: 267px;background:url(/template/company/putian/img/xw-bg.jpg) no-repeat;}
+.dqjs-pnews-item-pic{background:url(/template/company/putian/img/dqjs.png) no-repeat;}
+.xwzx-pnews-item-pic a{ width:360px;}
+.xwzx-pnews-item-pic img{width: 100%;height: 100%;}
+.xwzx-pnews-item-you{float: left;width: 400px;position: relative;height: 268px;background: #fcfcfc;padding-left: 30px;}
+.xwzx-pnews-item-title{width: 400px;padding-top: 25px;line-height: 32px;margin-bottom: 15px;overflow: hidden;}
+.xwzx-pnews-item-title a{font-size: 18px;color:#444;text-decoration:none;cursor:pointer;font-weight: bold;}
+.xwzx-pnews-item-fenxiang{ width:60px; padding-left:20px; float:right; background:url(/template/company/putian/img/news-fenxiang.png) 0px 18px no-repeat; padding-top:16px;}
+.xwzx-pnews-item-fenxiang a{ font-size:12px; color:#2961ba;}
+.xwzx-pnews-item-summary{width: 370px;line-height: 24px;font-size:14px;color: #666;text-indent: 2em;text-align: justify;}
+.xwzx-pnews-item-summary a{font-size: 14px;color: #1b5ba2;position: absolute;left: 0;bottom: 27px;}
+.zgpt-news{ width:857px;}
+.zgpt-news-content{ width:857px; margin:0px auto;}
+.xwzx-news-item{width:857px;height: 70px;margin-bottom: 30px;    padding: 15px 0;}
+.xwzx-news-item1,.xwzx-news-item3,.xwzx-news-item5,.xwzx-news-item7,.xwzx-news-item9{background: #fcfcfc;}
+.xwzx-news-item-date{width: 105px;height: 70px;text-align:center;font-size: 15px;color: #666;float:left;border-right: 1px solid #cccccc;margin-right: 16px;}
+.xwzx-news-item-date p{width: 105px;height: 50px;line-height: 50px;padding:0;font-size: 36px !important;color: #666;margin: 0;text-align: center !important;font-weight: bold;}
+.xwzx-news-item-you{width: 735px;float: left;height: 70px;}
+.xwzx-news-item-title{width:835px;margin-bottom: 6px;}
+.xwzx-news-item-title a{font-size: 14px;color:#333;text-decoration:none;cursor:pointer;font-weight: bold;}
+.xwzx-news-item-summary{width:740px;line-height:24px;font-size: 13px;color: #666;}
+.xwzx-news-item-summary a{ font-size:12px; color:#fe840d; float:right; padding-right:10px;}
+#ckepop{ position:absolute; right:0; bottom:15px;}
+.xwzx-pnews-item-date{ width:74px; height:75px; background:#186faa; text-align:center; font-size:13px; color:#fff; float:left;}
+.xwzx-pnews-item-date p{ width:70px; height:41px; line-height:41px; background:#fff; padding:0; margin-left:2px; margin-top:3px; font-size:22px; color:#1f71aa;}
+/*产业布局*/
+.i-tabs-nav{width: 855px; border: 1px solid #e2e2e2; height: 40px; line-height: 40px;margin-bottom:20px;}
+.i-tabs-item{display: block; width: 135px; height: 40px; float: left; text-align: center;font-size: 16px;color: #666;border-right: 1px dashed #e2e2e2;}
+.i-tabs-item-active{    color: #fff; background:#4866af}
+.sjqy-module{ margin-top:20px;    width: 900px;}
+.sjqy-item{    height: 126px;  margin-bottom: 20px;  width: 415px;    background: #fafafa;margin-right: 27px;    float: left;}
+.sjqy-pic{width: 176px;float: left;height: 126px;background: url(/template/company/putian/img/636835826788496324.gif) no-repeat left top;}
+.sjqy-title{padding-top: 30px;font-size: 14px;padding-left: 10px;float: left;font-weight: bold;line-height: 59px;width: 220px;text-align: center;}
+.sjqy-title a{color:#666; text-decoration:none}
+.sjqy-sum{    float: left; padding-left: 10px; line-height: 24px; color: #666;font-size: 14px;}
+.sjqy-pic img{width: 176px; height: 126px;}
+/*出资企业*/
+.gypt-module{width:900px;}
+.czqy-title{width:200px;height:40px; line-height:40px;font-size:16px;float:left;background:#f5f5f5; margin-right:15px;margin-bottom:15px;text-align:center}
+.czqy-title a{color:#1a1a1a}
+.czqy-title a:hover{color:#fff;background:#3b69b2;display:block}
+
+
+/*发展历程*/
+.fzlc-news-item-pic{max-width:150px;}
+.fzlc-news-item-pic img{width:100%;float:left;}
+.fzlc-news-title{font-size: 26px;color:#3b6ab2;background:url(/template/company/putian/img/develop-time.png) no-repeat left;width: 800px;height: 41px;line-height: 37px;padding-left:55px;}
+.fzlc-news-item-title .news-title{display:none;}
+.fzlc-news-item-title a{color:#333;}
+.fzlc-news-item-outer{float:left;width:795px;border-left:1px solid #cccccc;padding-left:40px;margin-left: 20px;}
+.fzlc-news-item-outer-line{padding-top: 32px;padding-bottom:30px;border-bottom:1px dashed #e5e4e4;}
+.fzlc-news-item-summary{font-size:14px;}
+.fzlc-news-content{position:relative;}
+.fzlc-news-item{position:relative;}
+.fzlc-news-item-summary{font-size:14px;line-height: 26px;text-align:justify;}
+.fzlc-news-item-summary img{max-width: 150px;max-height: 100px;margin-right: 20px;}
+.fzlc-news-content{position:relative;}
+.fzlc-news-item{position:relative;}
+.fzlc-news-item-point{background: url(/template/company/putian/img/develop-point.png) no-repeat;width:14px;height:14px;position:absolute;top: 35px;left: 13px;}
+.fzlc-pager{text-align:center;margin-top:30px;}
+.pager-item a{color:#999;display:inline-block;width:40px;height:30px;line-height:30px;font-size:14px;border-radius:5px;border:1px solid #e6e6e6;margin-left:5px;}
+.pager-item a:hover{color:#fff;background:#4866af;border:none;width:42px;height:32px;line-height:32px;}
+.pager-active a{color:#fff;background:#4866af;border:none;width:42px;height:32px;line-height:32px;}
+
+.zt-news-item{margin-bottom: 10px;}
+
+
+.zt-news-content{margin-left: -9px;}
+.zt-news-item{margin-bottom: 10px;width:280px;float:left;margin-left: 9px;}
+.zt-news-item-pic{width:280px;}
+.zt-news-item-pic img{width:100%;}
+
+/**/
+.i-tabs-tzzgx .i-tabs-nav{width:293px;border: none;height: auto;border-top: 1px solid #ededed;}
+.i-tabs-tzzgx .i-tabs-items{width:293px;     height: 40px;}
+.i-tabs-tzzgx .i-tabs-item{width:293px;height: 40px;text-align: center;font-size: 16px;border: none;border: 1px solid #ededed;border-top: none;}
+.i-tabs-tzzgx .i-tabs-item-active{    background: #4866af;     color: #fff;}
+.i-tabs-item-active a{color: #fff; text-decoration:none}
+/**/
+.txgyb-item{width:250px; float:left; margin-right:40px; margin-bottom:20px}
+.txgyb-item-pic{width: 180px;height: 278px;border:1px solid #ededed;padding-left:35px;padding-right:35px;padding-top:10px;padding-bottom:10px;}
+.txgyb-item-pic img{width: 180px;height: 276px;}
+.txgyb-item-title{font-size:16px;height:35px;line-height:35px;background: #ededed;width: 252px;}
+.txgyb-item-title a{color:#333; }
+
+.ssgj{    font-size: 24px;
+    color: #4866af;
+    line-height: 24px;background:url(/template/company/putian/img/gp.png) no-repeat left center ;padding-left:40px;    margin-left: 75px;
+}
+
+
+.rcgk-rcln,.rcgk-ryjg{width:410px;float:left}
+.rcgk-rcln{margin-right:30px;}
+.rcgk-title{font-size:22px;font-weight:bold;text-align:center;line-height:60px;border-bottom:1px solid #eee;}
+.rcgk-sum{font-size:14px;text-indent:2em;line-height:26px;margin-top:15px;}
+.rcgk-sum p{margin-bottom:5px;}
+
+.pt-qywh-left{float:left;margin-right:55px;margin-bottom:40px;}
+.pt-qywh-right{float:left}
+.pt-qywh-title{font-size:16px;color:#1a1a1a;text-align:center;line-height: 60px;}
+.pt-qywh-left .pt-qywh-title,.pt-qywh-right .pt-qywh-title{border-bottom:1px solid #e6e6e6;}
+.pt-qywh-bottom{text-align:center;}
+
+
+/*end*/

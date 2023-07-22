@@ -1,0 +1,93 @@
+.search-list{
+  width: 100%;
+  height: auto;
+  padding-bottom: 5%;
+  padding-top: 8%;
+}
+.search-list .title{
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.search-list .title .tits{
+  font-size: 30px;
+  line-height: 36px;
+  color: #333;
+  font-weight: bold;
+  position: relative;
+}
+.search-list .title .line{
+    width: 126px;
+    height: 2px;
+    background-color: #1d6fca;
+    position: relative;
+    margin: 14px auto 0;
+}
+.search-list .title .line span{
+  width: 40px;
+  height: 2px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #1d6fca;
+}
+@media (max-width: 550px){
+  .search-list .title .tits{
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+.search-list .title .tit{
+  padding-top: 12px;
+  font-size: 18px;
+  color: #333;
+}
+.search-list .title .tit span{
+  color: #f00;
+}
+.search-list .list{
+  width: 1100px;
+  height: auto;
+  margin: 3% auto 0;
+  max-width: 94%;
+}
+.search-list .list ul{
+  margin-bottom: 30px;
+}
+.search-list .list ul li a{
+  width: 100%;
+  display: block;
+  height: auto;
+  display: block;
+  line-height: 56px;
+  border-bottom: 1px dashed #E5E5E5;
+  font-size: 18px;
+  color: #333;
+}
+.search-list .list ul li a p{
+  width: 70%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  float: left;
+}
+.search-list .list ul li a p font{
+  color: #f00;
+}
+.search-list .list ul li a span{
+  float: right;
+}
+.search-list .list ul li a:hover p{
+  color: #033f67;
+}
+
+@media (max-width: 768px){
+  .search-list .list ul li a{
+    font-size: 14px;
+    line-height: 36px;
+  }
+  .search-list .title .tit{
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

@@ -1,0 +1,201 @@
+html,body, a{font-size: 12px;font-family: "微软雅黑" !important;}
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent;font-family:"微软雅黑" !important;}
+body {line-height:1;}
+:focus {outline: 1;}
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary { display:block;}
+nav ul {list-style:none;}
+blockquote, q {quotes:none;}
+blockquote:before, blockquote:after,
+q:before, q:after {content:'';content:none;}
+a {margin:0;padding:0;border:0;vertical-align:baseline;background:transparent;}
+ins {background-color:#ff9;color:#000;text-decoration:none;}
+mark {background-color:#ff9;color:#000; font-style:italic;font-weight:bold;}
+del {text-decoration: line-through;}
+abbr[title], dfn[title] {border-bottom:1px dotted #000;cursor:help;}
+table {border-collapse:collapse;border-spacing:0;}
+input, select {vertical-align:middle;}
+ol, ul ,li{list-style: none;}
+a:link,a:visited,a:active{text-decoration: none;}
+a:active {outline: none;star:expression(this.onFocus=this.blur());}
+a:hover{ color:#710306; text-decoration:none;}
+.lt{float: left;}
+.rt{float: right;}
+.comwidth{width: 100%;   }
+.content_nr{width: 1200px;margin: 0 auto;    overflow: hidden;padding-top: 40px; }
+.conRig{width: 868px;margin-bottom:50px;min-height:560px;}
+.maotai_cp_content{margin-bottom:50px;}
+/* 浮动 */
+.left{float: left !important;}
+.right{float: right !important;}
+.fl-none{float: none;}
+.none{display: none;}
+.clearfix:after{
+	clear: both;
+	content: "";
+	display: table;
+}
+
+/**头部**/
+.top_date{height: 27px;line-height: 27px;background: url() left center repeat-x;}
+.top_date .date_time span{display:block;height: 27px;font-size: 12px;color:#9b9b9b;}
+.top_date .web_us a{float: left;height: 27px;font-size: 12px;color:#9b9b9b;}
+.top_date .web_us span{float: left;font-size: 12px;color:#9b9b9b;margin:0 8px;}
+.web_logo{width: 100%;height: 126px;}
+.web_logo .logo{margin-top:18px;}
+.StranLink{}
+/*搜索*/
+.web_logo .search{width:96%; }
+.web_logo .search .hbinput{width: 92%; height: 32px;  text-indent: 1em;background: transparent; border: none; float: left;   ;outline: none;font-size: 18px;}
+.web_logo .search input[placeholder]{color:#666;}
+.web_logo .search .btn{    width: 42px;height: 32px;padding: 0; border: 0; cursor: pointer;float: right;outline: none; background:none;}
+.searBox{position:absolute;top:48px;right:100px;width:676px;background:#fff;display:none;padding-bottom:6px;border-bottom:1px solid #710304;}
+.searBox span{background:url(/template/company/maotai/img/2019071815263762464.png) no-repeat center;}
+.searBox .searImg{margin-top:4px;}
+
+
+.maotai_ToDay{background:#710304;height:40px;}
+.ToDay{max-width:1200px;overflow: hidden;margin:0 auto;}
+#ToDay{font-size: 14px; color: #aa817f;line-height: 40px;width: 300px;float: left;}
+.ToDay ul{overflow: hidden;float:right;width:300px;}
+.ToDay ul li{float:left;   font-size: 14px; color: #aa817f; }
+.ToDay ul li a{font-size: 14px; color: #aa817f;line-height: 40px;padding:0 10px;text-decoration:none ;}
+.ToDay ul li a:hover{color:#fff;}
+.web_logo .comwidth {height:100%;;margin:0 auto;max-width:1200px;position:relative;}
+.web_logo .Link{display:block;max-width: 320px;max-height: 86px;float:left;    padding-top: 32px;}
+.web_logo .Link img{width:320px;}
+.index_nav{float: left;margin-top:42px;    margin-left: 90px;}
+.index_nav .Ul .one{float:left;height:45px;position:relative;text-align:center;z-index:888;    padding: 0 5px;}
+.index_nav .Ul .one a.liet,
+.index_nav .Ul .one a.no{    display: table-cell;vertical-align: middle;width:100%;line-height:40px;font-size:18px;/*font-weight:bold;*/color:#343434;/*position:absolute;left:0;top:0;z-index:1;*/padding:0 10px;}
+.index_nav .Ul .one .select{display:none;background: rgba(113, 3, 4, 0.7);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#b2710304,endColorstr=#b2710304);
+width:150%;position:absolute;left:-23px;top:45px;z-index:5;text-align:center;}
+
+.index_nav .Ul .one .select .two a{display:block;line-height:42px;color:#fff;width:100%;font-size:16px;margin-bottom:2px;}
+.index_nav .Ul .one a.liet,
+.index_nav .Ul .one a:hover{color:#710304;font-weight:bold;}
+.index_nav .Ul .one:hover .select{display:block;}
+
+.phoneX{display:none;}
+.Ul>li>a{ position: relative;}
+.Ul>li>a:after{ content: ""; width: 0;height: 2px; background: #710304; position: absolute;top: 100%;left: 50%;transition: all .5s;}
+.Ul>li>a:hover:after{ left: 0%;width: 100%;}
+
+.select>li>a{ position: relative;}
+.select>li>a:after{ content: ""; width: 0;height: 2px; background: #fff; position: absolute;top: 100%;left: 50%;transition: all .5s;}
+
+.phoneNav{display:none}
+
+.comwidth>p{    float: left;margin-top: 50px;margin-left: 30px;}
+.select>li>a:hover:after{ left: 0%;width: 100%;}
+/*中间部分*/
+.mtgf_banner{max-width:1920px;margin:0 auto;}
+.maotai_content{    overflow: hidden;background:url(/template/company/maotai/img/2019060611132198364.jpg) no-repeat center 0;}
+.mtgf_xwgg{max-width:1200px;margin:0 auto;}
+.xinwenListBox{overflow: hidden;    margin: 0 auto; max-width: 1200px;    padding-bottom: 60px;}
+
+.mtgf_xwgg{    overflow: hidden;}
+.mtgf_xwlb{width:450px;height:250px;float:left;}
+.mtgf_xwdt{width:750px;height:250px;float:right;    background: url(
+/template/company/maotai/img/2019060611255290313.png) no-repeat center 0;}
+.maotai_xinwenlunbo{width:500px;float:left;padding-top:40px;}
+.maotai_xinwen{width:675px;float:right;padding-top:40px;}
+.maotai_zhuanti,.maotai_daohang{width:100%;float:left;}
+.maotai_dhang{max-width:270px;float:left;}
+.maotai_list{width:900px;float:right;}
+/**尾部**/
+.maotai_yqlj{height: 70px;overflow: hidden;background: #710304;}
+.friendsSHOP{margin: 0 auto;max-width: 1200px;}
+.friendsSHOP>ul{float:right;overflow: hidden;}
+.friendsSHOP>ul>li{float:left; font-size: 14px;color: #c1a4a4;}
+.friendsSHOP>ul>li>a{    font-size: 14px;color: #c1a4a4;line-height: 70px;padding:0 10px;}
+.friendsSHOP>ul>li>a:hover{color:#fff;}
+.friendsSHOP select{border: 1px solid #9d5657; border-radius: 20px;padding: 8px;font-size: 14px;color: #c09a9b;background: #8d3536;margin-right: 40px;text-indent: 1em;outline: none;    margin-top: 16px;}
+
+
+.friendsSHOP select option{border: 1px solid #9d5657; }
+.friendsSHOP select option:hover{background:#fff;}
+
+.maotai_foot{height: 125px;overflow: hidden;background: #3e3434;   }
+.foot_content{margin: 0 auto;max-width: 1200px;}
+.foot_content>h3{    line-height: 30px;font-size: 16px;color: #9d9a9a; text-align: center;font-weight: normal;padding-top: 20px;}
+.foot_content .bq{    line-height: 30px;font-size: 14px;color: #9d9a9a; text-align: center;}
+.foot_content>ul{    overflow: hidden;    width: 840px;  margin: 0 auto;}
+.foot_content>ul>li{float:left;    display: block;margin-right:10px;    margin-right: 30px;}
+.foot_content>ul>li>a{line-height: 30px; font-size: 14px;color: #9d9a9a;}
+.foot_content>ul>li>a>img{padding-right: 10px;line-height: 48px;position: relative;bottom: -2px;}
+
+
+/*手机端1200px*/
+@media only screen and (min-width: 100px) and (max-width: 1200px) {
+html{font-size:62.5% !important;}
+body{width: 100%; box-sizing: border-box;}
+.comwidth{width: 95%;margin:auto;}
+.header_top {display:none;}
+}
+
+
+/*手机端960px*/
+@media only screen and (min-width: 100px) and (max-width: 960px) {
+.maotai_ToDay{display:none;}
+.phoneNav{display:block;}
+/*.slideBox, .txtScroll-left, .newsBox{z-index:-1;}*/
+.comwidth>p{float:right;}
+.web_logo .comwidth{position:static;}
+/*导航*/
+.index_nav{margin:0;height:auto;z-index:900;position:absolute;top:0;left:-100%;width:100%;height:100%;background:rgba(0,0,0,0.5);}
+.index_nav .Ul {width:78%;position:absolute;top:0;left:-0%;overflow:hidden;background:url(/template/company/maotai/img/2019072409533045925.png) no-repeat top #710304;box-sizing:border-box;padding:1rem;z-index:2;height:100%;}
+.index_nav .Ul>li{width:95%;height:auto !important;border-bottom:1px solid rgba(255,255,255,.7);transition:all 1s;}
+.index_nav .Ul>li:last-child{border-bottom:none;}
+.index_nav .Ul li>a{font-size:18px !important;padding:0 !important;line-height:54px !important;}
+.index_nav .Ul li a{color:#fff !important;}
+.index_nav .Ul .one .select{background:none;width:100%;overflow:hidden;position:static;}
+.index_nav .Ul .one .select .two{float:left;line-height:34px;margin-right:8%;}
+.index_nav .Ul .one .select .two a{font-size:14px !important;line-height:38px !important;}
+.index_nav .Ul .one a.liet:hover .select{border-top:1px solid #000;}
+.Ul>li>a:after{position:static;}
+.index_nav .Ul .one:hover .select{display:none;}
+
+}
+
+
+/*手机端768px*/
+@media only screen and (min-width: 100px) and (max-width: 768px) {
+.content_nr{padding-top:1rem;width:100%;}
+#ida16{display:none;}
+#ida17{display:none;}
+
+/*logo搜索导航*/
+.web_logo .Link{width:65%;padding-top:22px;}
+.web_logo .Link img{width:100%;}
+.comwidth>p{float:right;margin-top:23px;margin-left:12px;}
+.sea{margin-top:34px !important;}
+.sea{display:none;}
+.web_logo{height:110px;}
+.web_logo .search{width:100%;margin-top:10px;z-index:1;display:block;position:static;border:1px solid #ccc;border-radius:30px;}
+.web_logo .search .btn{float:right;margin-right:10px;color:#333;}
+.web_logo .search .hbinput{width:76%;font-size:15px;}
+.searBox{display:block;position:static;width:auto;padding-bottom:0;border-bottom:none;}
+.searBox .searImg{display:none;}
+
+
+/*phone关闭按钮*/
+.phoneX{display:block;position:absolute;top:2.4rem;left:-65%;z-index:1000; }
+.phoneX img{width:24px;}
+/*footer*/
+.maotai_yqlj{display:none}
+.maotai_foot{width:100%;height:auto;}
+.foot_content>ul{width:96%;margin:auto;}
+.foot_content>ul>li{text-align:center;float:none;margin-right:0;}
+}

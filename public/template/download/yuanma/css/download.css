@@ -1,0 +1,476 @@
+
+/*~~ Reset ~~*/
+body,div,address,blockquote,iframe,ul,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,pre,table,caption,th,td,form,legend,fieldset{margin:0;padding:0;font-size:100%;}
+ol,ul{list-style:none;}
+img,iframe,fieldset{border:0;}
+*:focus{outline:0;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;}
+body{font:12px/1.5 "Lucida Grande",Helvetica,Arial;}
+input,button,select,textarea{font-size:100%;font-family:inherit;}
+textarea{overflow:auto;}
+a:link,a:visited{color:#333;text-decoration:none;}
+a:hover,a:active{text-decoration:underline;}
+button{overflow:visible;}
+
+.clearfix{zoom:1;}
+.clearfix:after{content:".";display:block;clear:both;height:0;overflow:hidden;visibility:hidden;}
+
+/*~~ Global widgets ~~*/
+.toolbar{margin-bottom:5px;}
+.toolbar,.toolbar-inner{background:url(/template/download/yuanma/img/toolbar.gif) repeat-x 0 100%;}
+.toolbar-inner{width:980px;height:28px;margin:auto;}
+.toolbar .quicklink{float:left;display:inline;margin-left:-10px;}
+.toolbar .userbar{float:right;}
+
+body#downchinaz{background:url(/template/download/yuanma/img/body-bg.png) repeat-x 0 28px;}
+.wrapper{width:980px;margin:auto;}
+
+.header{margin-bottom:5px;}
+.header .brand{float:left;display:inline;margin:0 40px 0 15px;}
+.header .brand .logo a{display:block;width:160px;height:60px;overflow:hidden;text-indent:-999px;background:url(/template/download/yuanma/img/logo.png) no-repeat 0 50%;}
+.header .banner{float:right;}
+.header .adtext{float:right;margin-left:5px;width:280px;height:58px;border:1px solid #B0D7FF;background:#F2F6FB;overflow:hidden;}
+.header .adtext ul{padding:2px 4px;line-height:1.4;}
+.header .adtext li{float:left;width:126px;white-space:nowrap;overflow:hidden;}
+
+.nav{margin-bottom:5px;padding-left:8px;background:url(/template/download/yuanma/img/nav.png) no-repeat;}
+.nav-inner{padding-right:20px;height:64px;background:url(/template/download/yuanma/img/nav.png) no-repeat 100% -200px;}
+.nav-inner .nav-inner{padding:0;background:url(/template/download/yuanma/img/nav.png) repeat-x 0 -100px;}
+.navlist{float:left;font-size:14px;overflow:hidden;}
+.navlist li{float:left;display:inline;margin-left:-2px;padding:0 8px;background:url(/template/download/yuanma/img/nav.png) no-repeat 0 -500px;}
+.navlist a{float:left;padding-right:10px;font-weight:bold;}
+.navlist a span{float:left;height:38px;line-height:38px;padding:0 3px 0 13px;}
+.navlist a:link,.navlist a:visited{color:#fff;text-decoration:none;}
+.navlist a.current:link,.navlist a.current:visited,.navlist a:hover,.navlist a:active{color:#000;background:url(/template/download/yuanma/img/nav.png) no-repeat 100% -400px;cursor:pointer;}
+.navlist a.current span,.navlist a:hover span{background:url(/template/download/yuanma/img/nav.png) no-repeat 0 -300px;}
+.search{float:right;width:215px;height:38px;overflow:hidden;}
+.search .textwrap{float:left;width:180px;height:25px;overflow:hidden;margin:5px 5px 0 0;background:url(/template/download/yuanma/img/search.png) no-repeat;}
+.search .text{width:170px;padding:5px;border:0;color:#999;background:transparent;}
+.search .text:focus{color:#000;}
+.search .button{float:left;width:30px;height:25px;overflow:hidden;margin:5px 0 0 0;border:0;text-indent:-999px;background:url(/template/download/yuanma/img/search.png) no-repeat 0 -50px;cursor:pointer;}
+.navlink{float:left;clear:both;padding:3px 0 0 2px;white-space:nowrap;}
+.navlink a{margin-right:8px;}
+.navpublish{float:right;clear:right;text-align:right;width:90px;padding:3px 0 0 0;}
+.navpublish a:link,.navpublish a:visited{color:#e00;text-decoration:underline;}
+
+.links{margin-bottom:10px;}
+.links-logo{padding-left:10px;background:url(/template/download/yuanma/img/links.png) no-repeat;}
+.links-logo .inner{padding-right:10px;background:url(/template/download/yuanma/img/links.png) no-repeat 100% -400px;}
+.links-logo .inner .inner{padding:15px 10px;background:url(/template/download/yuanma/img/links.png) repeat-x 0 -200px;}
+.links-logo a{float:left;margin:0 20px 0 0;}
+.links-text{padding:10px 17px;border:1px solid #dcdcdc;color:#999;}
+.links-text a{padding:0 3px;}
+
+.footer{color:#666;text-align:center;}
+.footer p{margin-bottom:10px;}
+.footer .footer-nav{color:#999;}
+.footer .footer-nav a:link,.footer .footer-nav a:visited{padding:0 3px;color:#36c;}
+
+.recommendsoft{margin-bottom:5px;padding-left:20px;background:url(/template/download/yuanma/img/recommendsoft.png) no-repeat;}
+.recommendsoft .inner{padding-right:20px;background:url(/template/download/yuanma/img/recommendsoft.png) no-repeat 100% -400px;}
+.recommendsoft .inner .inner{width:940px;height:168px;padding:0;overflow:hidden;background:url(/template/download/yuanma/img/recommendsoft.png) repeat-x 0 -200px;}
+.recommendsoft-head{height:35px;line-height:35px;}
+.recommendsoft-head .title{float:left;font-size:14px;color:#e60;text-shadow:0 1px 0 #fff;}
+.recommendsoft-head .extra{float:right;}
+.recommendsoft-list{width:984px;}
+.recommendsoft-list li{float:left;width:237px;height:130px;}
+.recommendsoft-list .image{float:left;width:136px;margin-right:5px;text-align:center;font-weight:bold;}
+.recommendsoft-list .image a:hover{text-decoration:none;}
+.recommendsoft-list .image strong{color:#ee6200;}
+.recommendsoft-list .image strong{font-weight:700;}
+.recommendsoft-list .image img{display:block;margin-bottom:8px;padding:2px;border:1px solid #dcdcdc;background:#fff;-webkit-box-shadow:0 2px 0 #f0f0f0;-moz-box-shadow:0 2px 0 #f0f0f0;box-shadow:0 2px 0 #f0f0f0;}
+.recommendsoft-list .intro{float:left;width:86px;}
+.recommendsoft-list .intro .dec{margin-top:5px;line-height:20px;}
+
+/*~~ Base widgets ~~*/
+.entry-content{padding:10px;}
+
+.panel{margin-bottom:5px;}
+.panel-head .title{float:left;font-size:14px;}
+.panel-head .extra{float:right;}
+.panel-head .rss a{display:block;width:36px;height:0;margin-top:8px;padding-top:22px;overflow:hidden;background:url(/template/download/yuanma/img/rss.gif) no-repeat;}
+.panel-head .title em{font-size:12px;font-style:normal;color:#999;font-weight:normal;vertical-align:top;}
+.panel-head .panel-head .result-title{color:#333;font-weight:normal;}
+.panel-head .extra .jumpto{float:left;padding:0 20px 0 10px;margin:10px 5px 0 0;line-height:20px;background:url(/template/download/yuanma/img/btn.png) no-repeat 0 -150px;}
+.panel-head,.panel-head .inner,.panel-body{zoom:1;}
+.panel-head:after,.panel-head .inner:after,.panel-body:after{content:".";display:block;clear:both;height:0;overflow:hidden;visibility:hidden;}
+.panel-foot{padding-right:10px;background:url(/template/download/yuanma/img/panel_bg.png) no-repeat 100% -70px;}
+.panel-foot div{height:5px;overflow:hidden;background:url(/template/download/yuanma/img/panel_bg.png) no-repeat 0 -60px;}
+
+.panel-box-red .panel-head,.panel-box-green .panel-head,.panel-box-gray .panel-head{padding-right:10px;background:url(/template/download/yuanma/img/panel_bg.png) no-repeat 100% -30px;}
+.panel-box-red .panel-head .inner,.panel-box-green .panel-head .inner,.panel-box-gray .panel-head .inner{height:30px;padding-left:15px;background:url(/template/download/yuanma/img/panel_bg.png) no-repeat;}
+.panel-box-red .panel-body,.panel-box-green .panel-body,.panel-box-gray .panel-body{min-height:50px;padding:0 15px;background:#fff url(/template/download/yuanma/img/p_gradient_red.png) repeat-x 0 100%;border:solid #fec799;border-width:0 1px;}
+.panel-box-red .panel-foot{background-position:100% -70px;}
+.panel-box-red .panel-foot div{background-position:0 -60px;}
+.panel-box-green .panel-head{background-position:100% -110px;}
+.panel-box-green .panel-head .inner{background-position:0 -80px;}
+.panel-box-green .panel-body{border-color:#98d569;background-image:url(/template/download/yuanma/img/p_gradient_green.png);}
+.panel-box-green .panel-foot{background-position:100% -150px;}
+.panel-box-green .panel-foot div{background-position:0 -140px;}
+.panel-box-gray .panel-head{background-position:100% -200px;}
+.panel-box-gray .panel-head .inner{height:40px;line-height:40px;background-position:0 -160px;}
+.panel-box-gray .panel-head .title{color:#c00;}
+.panel-box-gray .panel-head .ld{ display:block; float:left}
+.panel-box-gray .panel-head div.ld_ac{ float:right; margin-top:7px}
+.panel-box-gray .panel-head div.ld_ac a{font-weight:bold; display:block; float:left; background:url(/template/download/yuanma/img/c2.gif) repeat-x; height:25px; line-height:27px;+line-height:27px;_line-height:25px; border:1px solid #dfdfdf; border-left:none; padding:0 5px; color:#34991c}
+.panel-box-gray .panel-head div.ld_ac a:hover{ text-decoration:none; color:#333 }
+.panel-box-gray .panel-head div.ld_ac a.orgin{ background:url(/template/download/yuanma/img/c1.jpg) repeat-x; border:1px solid #c95d00; color:#FFFFFF}
+.panel-box-gray .panel-head div.ld_ac a.orgin:hover{ color:#fff}
+.panel-box-gray .panel-body{border-color:#dcdcdc;background-image:url(/template/download/yuanma/img/p_gradient_gray.png);}
+.panel-box-gray .panel-foot{background-position:100% -250px;}
+.panel-box-gray .panel-foot div{background-position:0 -240px;}
+
+.panel-aside-red .panel-head,.panel-aside-green .panel-head{padding-left:8px;background:url(/template/download/yuanma/img/panel_aside.png) no-repeat 0 -80px;}
+.panel-aside-green .panel-head{background-position:0 0;}
+.panel-aside-red .panel-head .inner,.panel-aside-green .panel-head .inner{height:37px;line-height:37px;padding-right:8px;background:url(/template/download/yuanma/img/panel_aside.png) no-repeat 100% -120px;}
+.panel-aside-green .panel-head .inner{background-position:100% -40px;}
+.panel-aside-red .panel-head .title{color:#c00;}
+.panel-aside-green .panel-head .title{color:#34991c;}
+.panel-aside-red .panel-body,.panel-aside-green .panel-body{padding:8px 8px 0;border:solid #ffd7ab;border-width:0 1px;background:#fff url(/template/download/yuanma/img/p_gradient_red.png) repeat-x 0 100%;}
+.panel-aside-green .panel-body{border-color:#5fbb29;background-image:url(/template/download/yuanma/img/p_gradient_green.png);}
+.panel-aside-green .panel-foot{background-position:100% -150px;}
+.panel-aside-green .panel-foot div{background-position:0 -140px;}
+
+.toprecommend{width:280px;overflow:hidden;margin-bottom:5px;padding-bottom:10px;background:url(/template/download/yuanma/img/recom_bg.png) no-repeat -600px 100%;}
+.toprecommend .tabber{width:286px;height:44px;background:url(/template/download/yuanma/img/recom_bg.png) no-repeat 0 36px;}
+.toprecommend .tabber li{float:left;width:137px;height:44px;margin-right:6px;overflow:hidden;}
+.toprecommend .tabber a,
+.toprecommend .tabber a:link,.toprecommend .tabber a:visited{color:#fff;text-decoration:none;text-shadow:0 1px 0 #b50;float:left;font-size:14px;font-weight:bold;width:137px;height:32px;line-height:32px;text-align:center;overflow:hidden;background:url(/template/download/yuanma/img/recom_tab.png) no-repeat -200px 0;}
+.toprecommend .tabber a.current,.toprecommend .tabber a.current:link,.toprecommend .tabber a.current:visited{position:relative;width:137px;height:44px;overflow:hidden;color:#360;background-position:0 0;text-align:left;text-indent:40px;text-shadow:0 1px 0 #fff;}
+.toprecommend-list{overflow:hidden;padding:0 11px;background:#f0f0f0 url(/template/download/yuanma/img/recom_bg.png) repeat-y -300px 0;}
+.toprecommend-list ul{margin:-5px 0 0 0;width:100%;overflow:hidden;}
+.toprecommend-list li{background:#eee;}
+.toprecommend-list li a{display:block;width:198px;height:38px;overflow:hidden;margin:5px 0 0 0;padding:5px 5px 5px 53px;border:1px solid #dcdcdc;background:#fff;}
+.toprecommend-list li strong{display:block;font-size:14px;color:#34991c;width:100%;overflow:hidden;white-space:nowrap;}
+.toprecommend-list li img{float:left;display:inline;margin-left:-46px;width:36px;height:36px;border:1px solid #dcdcdc;}
+.toprecommend-list li a:hover{text-decoration:none;}
+
+.leastdownload{padding-bottom:10px;background:url(/template/download/yuanma/img/leastdownload1.png) no-repeat -424px 100%;}
+.leastdownload .panel-head{padding:0 10px;height:31px;line-height:31px;border-bottom:1px solid #dcdcdc;background:url(/template/download/yuanma/img/leastdownload1.png) no-repeat;}
+.leastdownload .panel-head .title{color:#c00;}
+.leastdownload .extra a:link,.leastdownload .extra a:visited{color:#999;margin-left:15px;padding-left:10px;background:url(/template/download/yuanma/img/bullet_arrow_gray.gif) no-repeat 0 50%;}
+.leastdownload .panel-body{border:solid #dcdcdc;border-width:0 1px;padding:3px 10px 0;}
+.leastdownload-list li{clear:both;font-size:14px;height:24px;line-height:24px;padding:0 60px 0 15px;overflow:hidden;background:url(/template/download/yuanma/img/bullet_dot.gif) no-repeat 5px 11px;}
+.leastdownload-list .cate:link,.leastdownload-list .cate:visited{color:#999;}
+.leastdownload-list .date{font-size:12px;float:right;display:inline;width:50px;margin-right:-60px;color:#999;text-align:right;}
+.leastdownload-fixed{font-size:16px;height:24px;line-height:24px; margin:0 auto;overflow:hidden;white-space:nowrap;text-overflow:ellipsis; text-align:center; width:350px}
+.leastdownload-fixed a:link,.leastdownload-fixed a:visited{font-weight:bold;color:#c00;}
+.leastdownload-border{margin-top:5px;padding-top:5px;border-top:1px dashed #dcdcdc;}
+
+.specialtopic{padding-bottom:8px;background:url(/template/download/yuanma/img/specialtopic1.png) no-repeat 0 100%;}
+.specialtopic .panel-head{padding:0 10px;height:33px;line-height:33px;background:url(/template/download/yuanma/img/specialtopic1.png) no-repeat -520px 0;}
+.specialtopic .panel-head .title a{font-size:14px;color:#45902b;text-shadow:0 -1px 0 #def4cd,0 1px 0 #def4cd,-1px 0 0 #def4cd,1px 0 0 #def4cd;}
+.specialtopic .panel-head .title a:hover{ text-decoration:none}
+.specialtopic .panel-body{padding:9px 10px 0;background:url(/template/download/yuanma/img/specialtopic1.png) repeat-y -260px 0;}
+.specialtopic .panel-body a{display:block;margin:0 auto 8px;padding:3px;border:1px solid #c8c8c8;}
+.specialtopic .panel-body a img{width:172px;height:57px;}
+
+.codeboard-main{float:left;width:420px;margin-right:20px;}
+.codeboard-aside{float:left;width:240px;padding-top:10px;background:url(/template/download/yuanma/img/codeboard_edge.png) no-repeat;}
+.codestick{margin-bottom:5px;padding:0 0 8px 90px;border-bottom:1px dashed #dcdcdc;}
+.codestick .title{float:right;width:100%;font-size:14px;font-weight:bold;margin-bottom:5px;}
+.codestick .image{float:left;display:inline;width:auto;margin-left:-90px;}
+.codestick .image img{width:72px;height:60px;padding:2px;border:1px solid #dcdcdc;background:#fff;}
+.codelist{font-size:14px;margin-bottom:2px;}
+.codelist li{height:24px;line-height:24px;overflow:hidden;padding-right:60px;}
+.codelist li .date{float:right;width:60px;text-align:right;color:#999;display:inline;margin-right:-60px;}
+.codeboard-aside .title{font-size:14px;width:200px;height:20px;margin:0 0 10px 20px;}
+.codeboard-aside .hotlist{padding-left:20px;}
+.codeboard-aside .hotlist li{margin-bottom:2px;padding-left:10px;background:url(/template/download/yuanma/img/bullet_arrow.gif) no-repeat 0 50%;}
+.keywords{clear:both;padding:8px 0 7px;border-top:1px dashed #c8c8c8;}
+.keywords a{margin-left:10px;}
+.panel-box-red .codestick a:link,.panel-box-red .codestick a:visited,
+.panel-box-red .codeboard-aside .title,
+.panel-box-red .keywords strong,
+.panel-box-gray .keywords strong{color:#c00;}
+.panel-box-green .codestick a:link,.panel-box-green .codestick a:visited,
+.panel-box-green .codeboard-aside .title,
+.panel-box-green .keywords strong{color:#45902b;}
+
+.softlist{width:100%;overflow:hidden;}
+.softlist li{margin-bottom:4px;padding-left:10px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background:url(/template/download/yuanma/img/bullet_arrow.gif) no-repeat 0 50%;}
+
+.toprank{width:100%;overflow:hidden;}
+.toprank li{clear:both;height:18px;line-height:18px;margin-bottom:4px;padding-left:20px;overflow:hidden;}
+.toprank li{*margin-bottom:1px;}
+.toprank em{float:left;display:inline;width:13px;height:0px;margin:4px 0 0 -20px;padding-top:11px;overflow:hidden;background:url(/template/download/yuanma/img/icon.png) no-repeat;}
+.toprank a{float:left;width:220px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.layout-list-cols2 .col1 .toprank a{width:240px;}
+.toprank em.t-1{background-position:0 0;}
+.toprank em.t-2{background-position:0 -30px;}
+.toprank em.t-3{background-position:0 -60px;}
+.toprank em.t-4{background-position:0 -90px;}
+.toprank em.t-5{background-position:0 -120px;}
+.toprank em.t-6{background-position:0 -150px;}
+.toprank em.t-7{background-position:0 -180px;}
+.toprank em.t-8{background-position:0 -210px;}
+.toprank em.t-9{background-position:0 -240px;}
+.toprank em.t-10{background-position:0 -270px;}
+
+.commonsoft .panel-body,.commoncode .panel-body{padding-right:0;width:963px;overflow:hidden;}
+.commonsoft .panel-body dl,.commoncode .panel-body dl{float:left;width:105px;margin-right:15px;}
+.commonsoft .panel-body dt,.commoncode .panel-body dt{font-weight:bold;color:#c00;margin-bottom:6px;text-align:center;}
+.commoncode .panel-body dt{color:#45902b;}
+.commonsoft .panel-body dd,.commoncode .panel-body dd{margin-bottom:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.commoncode .panel-body dd{text-align:center;}
+.commonsoft .panel-body dd{height:18px;line-height:18px;padding-left:20px;}
+.commonsoft .panel-body dd img{float:left;display:inline;width:18px;height:18px;margin-left:-20px;}
+.commonsoft .panel-body .keywords,.commoncode .panel-body .keywords{margin-right:15px;}
+
+.breadcrumb{margin-bottom:5px;background:url(/template/download/yuanma/img/bg_sprite.png) repeat-x 0 -50px;}
+.breadcrumb .pagenav,.breadcrumb .linknav{height:36px;line-height:36px;background:url(/template/download/yuanma/img/bg_sprite.png) no-repeat;}
+.breadcrumb .pagenav{float:left;padding-left:10px;}
+.breadcrumb .linknav{float:right;padding-right:10px;background-position:100% -100px;}
+
+.hotrecommend{width:260px;overflow:hidden;zoom:1;}
+.hotrecommend li{float:left;width:100px;height:18px;line-height:18px;margin:0 5px 5px 0;padding-left:25px;overflow:hidden;}
+.hotrecommend img{float:left;display:inline;width:20px;height:20px;margin-left:-25px;}
+
+.panel-datatable .panel-head .title{display:none;}
+.panel-datatable .panel-body{padding:0 10px;background-color:transparent;}
+.panel-datatable .datatable{margin:-35px auto 0;position:relative;table-layout:fixed;}
+.datatable{width:100%;}
+.datatable th{padding:5px;white-space:nowrap;}
+.datatable td{padding:6px 5px;border-top:1px dashed #dcdcdc;}
+.datatable td.title{font-size:14px;width:390px;}
+.datatable td.title div{width:380px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.datatable td.title .cate:link,.datatable td.title .cate:visited{color:#c00;}
+.datatable .update{width:100px;text-align:center;}
+.datatable .size,.datatable .popular{width:70px;text-align:center;}
+.datatable tbody tr:hover{background:#f5f5f5;}
+
+.pagination{margin:0 -15px;padding:10px 15px 7px;border-top:1px solid #dcdcdc;line-height:20px;}
+.pagination .stats{margin-right:10px;display:inline-block;vertical-align:middle;}
+.pagination .stats strong{color:#c00;}
+.pagination a{display:inline-block;padding:2px 8px;border:1px solid #dcdcdc;background:#fff;vertical-align:middle;}
+.pagination a .current{display:inline-block;position:relative;margin:-3px -9px;padding:2px 8px;border:1px solid #e70;color:#e50;background:#fed;vertical-align:middle;cursor:pointer;*left:-9px;-top:-1px;}
+.pagination a:link,.pagination a:visited{color:#06c;}
+.pagination .first:link,.pagenation .first:visited,
+.pagination .last:link,.pagination .last:visited,
+.pagination .previous:link,.pagination .previous:visited,
+.pagination .next:link,.pagination .next:visited{color:#333;}
+
+.subcata{padding-top:5px;*padding-bottom:15px;}
+.subcata a{float:left;width:69px;height:30px;margin:0 0 15px 10px;line-height:30px;text-align:center;background:url(/template/download/yuanma/img/btn.png) no-repeat 0 -407px;}
+.subcata a:hover{text-decoration:none;background-position:0 -377px;font-weight:bold;color:#c00;}
+
+.subnav .panel-head{padding-right:10px;background:url(/template/download/yuanma/img/panel_bg.png) no-repeat 100% -300px;border-bottom:2px solid #f50;}
+.subnav .panel-head .inner{height:36px;line-height:36px;padding-left:10px;background:url(/template/download/yuanma/img/panel_bg.png) no-repeat 0 -260px;}
+.subnav .panel-body{padding:14px 10px 0;background:#fff;border:solid #dcdcdc;border-width:1px 1px 0;}
+.subnav .panel-body{*padding-bottom:10px;}
+.subnav .panel-body a{float:left;display:inline;width:80px;height:20px;line-height:20px;margin:0 15px 10px 0;text-align:center;background:url(/template/download/yuanma/img/btn.png) no-repeat 0 -280px;}
+.subnav .panel-body a.current:link,.subnav .panel-body a.current:visited,
+.subnav .panel-body a:hover,.subnav .panel-body a:active{color:#c00;text-decoration:none;}
+.subnav .panel-foot{background-position:100% -350px;}
+.subnav .panel-foot div{background-position:0 -340px;}
+
+.orderby{padding-top:10px;}
+.orderby span{float:left;margin-left:5px;}
+.orderby a{display:block;width:100px;height:24px;line-height:24px;background:url(/template/download/yuanma/img/btn.png) no-repeat 0 -205px;}
+.orderby span.current a,.orderby a:hover{background-position:0 -180px;text-decoration:none;color:#c00;}
+.orderby a em{float:left;display:inline;width:20px;height:20px;margin-left:10px;background:url(/template/download/yuanma/img/icon.png) no-repeat 0 -300px;}
+.orderby a.popular em{background-position:0 -320px;}
+.orderby a.time em{background-position:0 -340px;}
+
+.software-item{padding:10px 0 10px 140px;margin:-1px 0 0;border-top:1px dashed #dcdcdc;}
+.item-odd{background:#fafafa;}
+.software-item .image{float:left;display:inline;margin-left:-132px;overflow:hidden;max-height:128px;padding:2px;border:1px solid #dcdcdc;}
+* html .software-item .image{height:128px;}
+.software-item .image img{width:110px;}
+.software-item .name{font-size:14px;margin-bottom:5px;overflow:hidden;zoom:1;}
+.software-item .name a:link,.software-item .name a:visited{color:#c00;}
+.software-item .name .url{float:left;max-width:350px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.software-item .name .she{float:left;max-width:1000px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+
+* html .software-item .name .url{width:350px;}
+.software-item .name .date{float:right;font-size:85%;font-weight:normal;color:#999;}
+.software-item .info{color:#666;margin-bottom:5px;word-spacing:5px;}
+.software-item .info em{font-style:normal;color:#c00;}
+.software-item .info span{margin-right:15px;}
+
+.software-summary{float:left;padding:0 0 0 200px;width:500px;}
+.software-summary .image{float:left;width:185px;display:inline;margin-left:-200px;margin-bottom:10px;border:1px solid #dcdcdc;}
+.software-summary .image span{display:block;border:3px solid #fff;height:159px;text-align:center;overflow:hidden;}
+.software-summary .image img{width:100%;}
+.software-summary li{float:left;width:220px;margin-bottom:8px;height:21px;white-space:nowrap;overflow:hidden;}
+.software-summary li.right{width:270px;}
+.software-summary li img{vertical-align:middle;}
+.software-summary li em{font-style:normal;color:#c80000;}
+.software-summary li.monials{color:#969696;}
+.software-summary li a:link,.software-summary li a:visited{color:#3566cc;}
+.software-infolist .author{display:inline-block;max-width:6em;vertical-align:middle;overflow:hidden;text-overflow:ellipsis;}
+* html .software-infolist .author{width:6em;}
+
+.software-action{clear:both;}
+.software-action .vote{float:left;}
+.software-action .vote a{float:left;display:inline;width:90px;height:37px;padding:0 0 3px 30px;margin:0 5px 0 0;line-height:37px;background:url(/template/download/yuanma/img/btn.png) no-repeat;font-size:117%;font-weight:bold;}
+.software-action .vote a.oppose{background-position:0 -37px;}
+.software-action .vote a:link,.software-action .vote a:visited{color:#fff;}
+.software-action .adctions{float:right;padding-top:8px;}
+.software-action .button{float:left;padding-right:10px;margin-left:10px;background:url(/template/download/yuanma/img/btn.png) no-repeat 100% -120px;}
+.software-action .button .inner{float:left;height:30px;line-height:25px;padding-left:10px;background:url(/template/download/yuanma/img/btn.png) no-repeat 0 -80px;}
+.software-action .button  a em{color:#c80000;font-style:normal;}
+.software-action .button  a:link,.software-action .button a:visited{color:#12459c;}
+.software-action .button  a:hover{text-decoration:none;}
+.btn-read a{display:block;padding-left:20px;background:url(/template/download/yuanma/img/icon.png) no-repeat 0 -298px;}
+.btn-favorite a{display:block;padding-left:20px;background:url(/template/download/yuanma/img/icon.png) no-repeat 0 -361px;}
+.btn-discuss a{display:block;padding-left:20px;background:url(/template/download/yuanma/img/icon.png) no-repeat 0 -381px;}
+.btn-violation a{display:block;padding-left:20px;background:url(/template/download/yuanma/img/icon.png) no-repeat 0 -401px;}
+.btn-share a{display:block;padding-left:20px;background:url(/template/download/yuanma/img/icon.png) no-repeat 0 -320px;}
+.software-intro{padding:0 0 10px;line-height:22px;}
+.turnleft,.turnright{float:left;display:inline;width:15px;height:45px;margin:35px 10px 0 0;cursor:pointer;text-indent:-9999px;background:url(/template/download/yuanma/img/turn.gif) no-repeat 0 0;}
+.turnright{background-position:0 -45px;margin:35px 0 0 10px;}
+.software-image{float:left;padding:5px 0 15px;width:610px;height:124px;overflow:hidden;}
+.software-image a{float:left;width:118px;height:118px;overflow:hidden;margin-right:10px;padding:2px;border:1px solid #ddd;text-align:center;background:#fff;font-size:0;line-height:118px;letter-spacing:-10px;}
+.software-image a img{display:inline-block;vertical-align:middle;}
+.software-image a:hover{border-color:#ffd7ab;}
+
+.thumbpreview-title{width:960px;margin:20px auto;font-size:16px;text-align:center;}
+.thumbpreview-title a:link,.thumbpreview-title a:visited{color:#c00;text-decoration:none;}
+.thumbpreview-control{width:960px;margin:0 auto;}
+.thumbpreview-control .software-image{width:910px;}
+.thumbpreview-image{width:910px;margin:0 auto 10px;}
+.thumbpreview-image img{border:1px solid #ddd;max-width:910px;}
+.thumbpreview-link{width:960px;margin:0 auto 10px;text-align:center;}
+
+.software-download{float:left;width:300px;overflow:hidden;}
+.software-download li{margin:0 0 10px;white-space:nowrap;}
+.software-download .icon{display:inline-block;width:16px;height:0;padding-top:16px;margin-right:2px;overflow:hidden;background:url(/template/download/yuanma/img/icon.png) no-repeat 0 -425px;vertical-align:middle;}
+.software-download em{color:#f60;font-style:normal;}
+.software-download .title{display:inline-block;max-width:190px;_width:190px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;vertical-align:middle;}
+.software-download a:hover,.software-download a:visited{cursor:pointer;}
+
+.software-relative{clear:both;margin-bottom:5px;}
+.software-relative h3{font-size:14px;color:#c00;margin-bottom:5px;}
+.software-relative li{float:left;width:320px;margin:0 0 2px;padding-left:10px;white-space:nowrap;background:url(/template/download/yuanma/img/bullet_arrow.gif) no-repeat 0 50%;overflow: hidden;}
+
+.software-adtext{margin:0 0 5px;}
+.software-ad-img{float:right;display:inline;width:230px;overflow:hidden;margin-bottom:10px;}
+.download-ad-img{float:right;display:inline;width:350px;overflow:hidden;margin-bottom:10px;}
+.download-ad-img img{display:block;margin:0 0 5px;}
+
+.bbs-actions{padding-top:15px;}
+.bbs-actions a:link,.bbs-actions a:visited{margin-left:15px;color:#3268cc;}
+.commenttab{float:left;line-height:30px;margin-top:5px;}
+.commenttab a{position:relative;float:left;margin-right:10px;padding-right:10px;background:url(/template/download/yuanma/img/btn.png) no-repeat 100% -340px;font-size:117%;font-weight:bold;}
+.commenttab a span{float:left;padding-left:10px;background:url(/template/download/yuanma/img/btn.png) no-repeat 0 -300px;}
+.commenttab a.current,.commenttab a.current span{background:none;color:#c00;}
+.commenttab a:hover{text-decoration:none;}
+.commentstats{color:#969696;}
+.comment-item{margin:-1px 0 0;padding:5px 0;border-top:1px dashed #dcdcdc;}
+.comment-info .user{float:left;}
+.comment-info .user a:link,.comment-info .user a:visited{color:#3268cc;}
+.comment-info .date{float:right;}
+.comment-info,
+.comment-content{margin-bottom:5px;}
+
+.commentform{padding-top:10px;border-top:1px dashed #dcdcdc;}
+.commentform .row{margin-bottom:10px;overflow:hidden;zoom:1;}
+.commentform .row-button{margin-left:50px;width:400px;}
+.commentform .label{float:left;width:40px;margin-right:10px;}
+.commentform .text{float:left;margin-right:10px;width:165px;}
+.commentform textarea{float:left;width:400px;height:100px;}
+.commentform .captcha{width:50px;}
+.commentform img{vertical-align:top;}
+.commentform .button{float:left;}
+.commentform .count{float:right;}
+
+.comments .panel-body{overflow:hidden;}
+
+.panel-box-red .panel-head .title,
+.panel-box-green .panel-head .title{width:150px;height:30px;text-indent:-999px;overflow:hidden;background:url(/template/download/yuanma/img/panel_title.png) no-repeat;}
+.panel-box-red .panel-head .title a,
+.panel-box-green .panel-head .title a{display:block;width:150px;height:30px;}
+
+#downchinaz_asp .panel-head .title{background-position:0 0;}
+#downchinaz_php .panel-head .title{background-position:0 -30px;}
+#downchinaz_dotnet .panel-head .title{background-position:0 -60px;}
+#downchinaz_other .panel-head .title{background-position:0 -90px;}
+#downchinaz_commen .panel-head .title{background-position:0 -120px;}
+#downchinaz_code .panel-head .title{background-position:0 -150px;}
+#downchinaz_book .panel-head .title{background-position:0 -180px;}
+#downchinaz_severs .panel-head .title{background-position:0 -210px;}
+#downchinaz_internet .panel-head .title{background-position:0 -240px;}
+#downchinaz_utility .panel-head .title{background-position:0 -270px;}
+#downchinaz_system .panel-head .title{background-position:0 -300px;}
+#downchinaz_graphic .panel-head .title{background-position:0 -330px;}
+#downchinaz_multimedia .panel-head .title{background-position:0 -360px;}
+#downchinaz_security .panel-head .title{background-position:0 -390px;}
+#downchinaz_game .panel-head .title{background-position:0 -420px;}
+#downchinaz_hardward .panel-head .title{background-position:0 -450px;}
+
+/*~~ Layout ~~*/
+.col1,.col2,.col3,.col4,.col5{float:left;margin-right:8px;}
+.layout-home-cols3 .col1{width:280px;}
+.layout-home-cols3 .col2{width:424px;}
+.layout-home-cols3 .col3{width:260px;margin-right:0;}
+.layout-home-cols2 .col1{width:712px;}
+.layout-home-cols2 .col2{width:260px;margin-right:0;padding-top:9px;}
+
+.layout-list-cols2 .col1{width:280px;}
+.layout-list-cols2 .col2{float:right;width:692px;margin-right:0;}
+
+.layout-detail-cols2 .col1{width:692px;}
+.layout-detail-cols2 .col2{width:280px;margin-right:0;}
+
+/*~~ Ad banner system ~~*/
+.banner img{display:inline-block;}
+.banner-leaderboard,.banner-halfbanner{margin-bottom:5px;text-align:center;}
+
+
+/*lidan*/
+
+
+
+.panel-body .pic_text{ border-bottom:1px dashed #999999; padding-bottom:8px;+padding-bottom:1px;_padding-bottom:0px;}
+.panel-body .pic_text .left{ float:left; width:120px;}
+.panel-body .pic_text .left a{ width:106px; height:80px; padding:1px; border:1px solid #CCCCCC; margin:0 auto; }
+.panel-body .pic_text .left a img{ display:block; width:106px; height:80px;}
+.panel-body .pic_text .left p a{  border:none; text-align:center; }
+.panel-body .pic_text .left p{ margin-top:3px;height:20px;overflow: hidden;}
+
+.specialtopic .panel-body ul li a{ display: inline; border:none ; color:#999999 }
+.specialtopic .panel-body ul li { color:#999; width:233px; line-height:22px; overflow: hidden;white-space: nowrap;-o-text-overflow: ellipsis;text-overflow: ellipsis;}
+.specialtopic .panel-body ul{ padding:8px 0}
+.specialtopic .panel-body ul li a.p{ color:#333333}
+.specialtopic .panel-body ul li a.red{ color:#cc0000}
+
+.specialtopic .panel-body ul li span.ld_date{ display:none}
+
+.specialtopic .panel-body .pic_word{height:100px; overflow:hidden;margin:12px 0; line-height:0;margin-left:-6px}
+.specialtopic .panel-body .pic_word a{margin:0 0 0 14px;float:left; display:inline; border:none; white-space:nowrap;line-height:20px;height:20px;padding:0; }
+.specialtopic .panel-body .pic_word a.color01{ color:#499035}
+
+.pic_list{border-top:1px dashed #999999;padding:4px 0 0 6px;}
+
+.ym_wz .software-item {
+    border-top: 1px dashed #DCDCDC;
+    margin: -1px 0 0;
+    padding: 10px 0 10px 10px;
+}
+.ym_tag{ border:1px solid #FFD7AB; padding:0 10px 10px 10px; overflow:auto; zoom:1; background:url(/template/download/yuanma/img/tag_bg.jpg) repeat-x;}
+.ym_tag .title{ height:35px; line-height:35px; font-size:14px; color:#cc0000; font-weight:bold;}
+.ym_tag a{ display:block; float:left; margin-right:8px; line-height:22px; white-space:nowrap}
+.ym_tag a.red{ color: #F00;}
+.ym_tag a.b{ font-weight:bold; font-size:14px;}
+.ym_edit{ border:1px solid #d1d1d1; background:#fbfbfb; padding:10px; line-height:20px; font-size:14px; margin-bottom:5px }
+.ym_tag .list{ margin:5px 0}
+
+.change_tag{ border:1px solid #a0d874; background: url(/template/download/yuanma/img/change_bg.jpg) repeat-x #FFF; margin-bottom:10px ; padding:5px 10px 10px 10px}
+
+.change_tag ul{ overflow:auto; zoom:1; }
+.change_tag ul p{ background: url(/template/download/yuanma/img/jszy.jpg) no-repeat; width:106px; height:37px; float:left}
+.change_tag ul p span{ display:none}
+.change_tag ul li{ background: #FFF; border:1px solid #d1d1d1;  float:left; margin:5px 10px 5px 0 ;height:30px; line-height:30px; }
+.change_tag ul li a{ display:block;padding:0 5px; line-height:30px; white-space:nowrap;text-decoration:none; color: #666}
+.change_tag ul li a:hover{ color: #000; text-decoration:underline}
+.b_g_guang{ overflow:hidden; zoom:1; margin-bottom:10px; clear:both}
+.bai_g,.gu_g{ float:left;width:336px;}
+.gu_g{ margin-left:19px;_margin-left:18px;}
+
+
+.toprank li.rankhot{padding-left:0px}
+.toprank li.rankhot i{width:30px; background-color:#f54711; display:inline-block; color:#fff;font-style:normal;border-radius:2px; text-align:center; float:left;margin-right:7px; border:solid 1px #ed2e02; line-height:16px;height:16px;}
+.toprank li.rankhot a{width:203px;}
+

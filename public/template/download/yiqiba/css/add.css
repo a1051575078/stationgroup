@@ -1,0 +1,341 @@
+.fr.side .md-gameinfo {
+    border: 1px solid #eee;
+    margin-bottom: 30px;
+}
+.fr.side .md-gameinfo:before,
+.fr.side .md-gameinfo:after {
+    content: " ";
+    display: table;
+}
+.fr.side .md-gameinfo:after {
+    clear: both;
+}
+.fr.side .md-gameinfo .pic {
+    float: left;
+    width: 100px;
+    height: 134px;
+}
+.fr.side .md-gameinfo .pic img {
+    width: 100px;
+    height: 134px;
+}
+.fr.side .md-gameinfo .info {
+    float: right;
+    width: 160px;
+    padding-top: 18px;
+    padding-bottom: 20px;
+}
+.fr.side .md-gameinfo .info .name a {
+    display: block;
+    font-size: 18px;
+    color: #666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 20px;
+}
+.fr.side .md-gameinfo .info .intr {
+    font-size: 14px;
+    color: #666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 16px;
+    margin-top: 12px;
+}
+.fr.side .md-gameinfo .info .btn {
+    margin-top: 16px;
+    font-size: 0;
+}
+.fr.side .md-gameinfo .info .btn a {
+    padding: 0 9px;
+    height: 30px;
+    display: inline-block;
+    margin-right: 2px;
+    background: #64bcff;
+    line-height: 30px;
+    font-size: 14px;
+    color: #fff;
+}
+.fr.side .md-gameinfo .info .btn a:hover {
+    opacity: .7;
+}
+.fr.side .md-gameinfo .info .btn a.red {
+    background: #e4461b;
+}
+.fr.side .md-newgameinfo {
+    border: 1px solid #eee;
+    margin-bottom: 30px;
+    padding: 10px;
+    position: relative;
+}
+.fr.side .md-newgameinfo .mark {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: url('/template/download/yiqiba/img/mark-ico.png') no-repeat;
+    position: absolute;
+    right: 8px;
+    top: 16px;
+    font-size: 16px;
+    color: #eb5656;
+    font-weight: bold;
+}
+.fr.side .md-newgameinfo .mark.mark01 {
+    background-position: 0 0;
+}
+.fr.side .md-newgameinfo .mark.mark02 {
+    background-position: 0 -40px;
+}
+.fr.side .md-newgameinfo .mark.mark03 {
+    background-position: 0 -80px;
+}
+.fr.side .md-newgameinfo .mark.mark04 {
+    background-position: 0 -120px;
+}
+.fr.side .md-newgameinfo .mark.mark05 {
+    background-position: 0 -160px;
+}
+.fr.side .md-newgameinfo .mark.mark06 {
+    background-position: 0 -200px;
+}
+.fr.side .md-newgameinfo .mark.mark07 {
+    background-position: 0 -240px;
+}
+.fr.side .md-newgameinfo .mark.mark08 {
+    background-position: 0 -280px;
+}
+.fr.side .md-newgameinfo .mark.mark09 {
+    background-position: 0 -320px;
+}
+.fr.side .md-newgameinfo .hd:before,
+.fr.side .md-newgameinfo .hd:after {
+    content: " ";
+    display: table;
+}
+.fr.side .md-newgameinfo .hd:after {
+    clear: both;
+}
+.fr.side .md-newgameinfo .bd {
+    font-size: 0;
+    padding-top: 20px;
+}
+.fr.side .md-newgameinfo .bd:before,
+.fr.side .md-newgameinfo .bd:after {
+    content: " ";
+    display: table;
+}
+.fr.side .md-newgameinfo .bd:after {
+    clear: both;
+}
+.fr.side .md-newgameinfo .bd .btn {
+    display: inline-block;
+    margin: 5px 0;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 0;
+    position: relative;
+    cursor: pointer;
+}
+.fr.side .md-newgameinfo .bd .btn span,
+.fr.side .md-newgameinfo .bd .btn i {
+    display: inline-block;
+    vertical-align: middle;
+}
+.fr.side .md-newgameinfo .bd .btn .codeico {
+    width: 13px;
+    height: 13px;
+    background: url('/template/download/yiqiba/img/codeico.png') no-repeat;
+}
+.fr.side .md-newgameinfo .bd .btn:hover .codeitem {
+    display: block;
+}
+.fr.side .md-newgameinfo .bd .btn .codeitem {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin: 0 0 0 -75px;
+    padding-top: 10px;
+    z-index: 9;
+}
+.fr.side .md-newgameinfo .bd .btn .codeitem .cont .code img {
+    width: 90px;
+    height: 90px;
+}
+.fr.side .md-newgameinfo .bd .btn .codeitem .cont {
+    padding-top: 20px;
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+.fr.side .md-newgameinfo .bd .btn .codeitem .cont:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    position: absolute;
+    top: -5px;
+}
+.fr.side .md-newgameinfo .bd .btn .codeitem .link {
+    line-height: 14px;
+    padding-top: 10px;
+}
+.fr.side .md-newgameinfo .bd .btn .codeitem .link a {
+    font-size: 12px;
+    color: #fff;
+    text-decoration: underline;
+    line-height: 14px;
+}
+.fr.side .md-newgameinfo .bd .android {
+    background: #79c347;
+}
+.fr.side .md-newgameinfo .bd .android:hover {
+    background: #88dc4f;
+}
+.fr.side .md-newgameinfo .bd .android .cont {
+    background: #79c347;
+}
+.fr.side .md-newgameinfo .bd .android .cont:after {
+    border-bottom: 5px solid #79c347;
+}
+.fr.side .md-newgameinfo .bd .android .ico {
+    width: 18px;
+    height: 22px;
+    background: url('/template/download/yiqiba/img/android.png') no-repeat;
+}
+.fr.side .md-newgameinfo .bd .ios {
+    background: #5a5f65;
+}
+.fr.side .md-newgameinfo .bd .ios:hover {
+    background: #677280;
+}
+.fr.side .md-newgameinfo .bd .ios .cont {
+    background: #5a5f65;
+}
+.fr.side .md-newgameinfo .bd .ios .cont:after {
+    border-bottom: 5px solid #5a5f65;
+}
+.fr.side .md-newgameinfo .bd .ios .ico {
+    width: 19px;
+    height: 22px;
+    background: url('/template/download/yiqiba/img/ios.png') no-repeat;
+}
+.fr.side .md-newgameinfo .bd .pc {
+    background: #4db3d4;
+}
+.fr.side .md-newgameinfo .bd .pc .ico {
+    width: 18px;
+    height: 20px;
+    background: url('/template/download/yiqiba/img/pc.png') no-repeat;
+}
+.fr.side .md-newgameinfo .bd .pc:hover {
+    opacity: .8;
+}
+.fr.side .md-newgameinfo .pic {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.fr.side .md-newgameinfo .pic img {
+    margin-top: -15px;
+    width: 100px;
+    height: auto;
+}
+.fr.side .md-newgameinfo .info {
+    float: left;
+    width: 128px;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+.fr.side .md-newgameinfo .info .name {
+    padding-bottom: 15px;
+    font-family: "Microsoft YaHei";
+    font-weight: blod
+}
+.fr.side .md-newgameinfo .info .name a {
+    color: #666;
+    font-size: 18px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 20px;
+}
+.fr.side .md-newgameinfo .info .intr {
+    font-size: 14px;
+    color: #666;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 14px;
+    padding-bottom: 18px;
+}
+.fr.side .md-newgameinfo .info .intr span {
+    font-size: 12px;
+    color: #999;
+}
+.fr.side .md-newgameinfo .info .btn {
+    font-size: 0;
+}
+.fr.side .md-newgameinfo .info .btn a {
+    font-size: 12px;
+    color: #666;
+    display: inline-block;
+    width: 60px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    border: 1px solid #e5e8ec;
+    margin-right: 2px;
+}
+.fr.side .md-newgameinfo .info .btn a:hover {
+    border: 1px solid #ffb7b7;
+    color: #f45050;
+}
+.fr.side .md-newgameinfo .btn-md .btn {
+    width: 150px;
+}
+.fr.side .md-newgameinfo .btn-md .name {
+    font-size: 14px;
+    margin: 0 15px;
+}
+.fr.side .md-newgameinfo .btn-md .android {
+    margin-right: 4px;
+}
+.fr.side .md-newgameinfo .btn-md .pc {
+    display: none;
+}
+.fr.side .md-newgameinfo .btn-sm .btn {
+    width: 98px;
+    position: relative;
+}
+.fr.side .md-newgameinfo .btn-sm .name {
+    font-size: 12px;
+    margin-left: 8px;
+}
+.fr.side .md-newgameinfo .btn-sm .ios {
+    margin: 0 5px;
+}
+.fr.side .md-newgameinfo .btn-sm .codeico {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.fr.side .md-newgameinfo .btn-lg {
+    padding-left: 14px;
+}
+.fr.side .md-newgameinfo .btn-lg .btn {
+    width: 222px;
+}
+.fr.side .md-newgameinfo .btn-lg .name {
+    font-size: 14px;
+    margin: 0 15px;
+}

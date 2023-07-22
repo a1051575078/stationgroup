@@ -1,0 +1,633 @@
+/* csshint-disable */
+.deta-page{
+    height: 26px;
+    line-height: 18px;
+    color: #666;
+    overflow: hidden;
+}
+.main-detail-box{
+    background: #fff;
+    border: 1px solid #e9e9e9;
+    overflow: hidden;
+    zoom: 1;
+    padding-bottom: 20px;
+    width: 788px;
+}
+.soft-info{
+    padding: 20px 20px 18px;
+    overflow: hidden;
+}
+.soft-pic{
+    width: 100%;
+    border-bottom: 1px dashed #f1f1f1;
+    position: relative;
+    padding-bottom: 18px;
+    float: left;
+}
+.pic-item{
+    width: 154px;
+    height: 106px;
+    position: relative;
+    border: 1px solid #ececec;
+    float: left;
+}
+.pic-text-box {
+    width: 340px;
+    top: 0;
+    left: 170px;
+    float: left;
+    margin-left: 10px;
+}
+
+.pic-item img{
+    vertical-align: middle;
+    width: 154px;
+    height: 106px;
+}
+.soft-dl-button{
+    width: 227px;
+    height: 66px;
+    overflow: hidden;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+}
+.soft-dl-button .dl-btn{
+    float: left;
+}
+.soft-dl-button .dl-br-btn{
+    float: right;
+}
+.soft-dl-nobr .dl-btn{
+    float: none;
+    margin: 0 auto;
+}
+
+
+.soft-text{
+    width: 100%;
+    border-bottom: 1px dashed #f1f1f1;
+    padding: 16px 0;
+    float: left;
+}
+.soft-title{
+    position: relative;
+    float: left;
+}
+.soft-title h1{
+    float: left;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.soft-title .soft-range{
+    position: absolute;
+    right: 0;
+    top: -3px;
+}
+.soft-title .star-range{
+    width: 125px;
+    height: 23px;
+    background-position: -100px -103px;
+    float: left;
+    margin-top: 6px;
+}
+.soft-title .star-range .in{
+    height: 23px;
+    background-position: -100px -80px;
+}
+.soft-title .soft-grade{
+    float: left;
+    padding-left: 10px;
+}
+.soft-title .red{
+    font-size: 24px;
+}
+.soft-info-list {
+    float: left;
+    width: 400px;
+}
+.soft-info-list li{
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.soft-info-list .item .t_title {
+    color: #999999;
+}
+.soft-info-list .item{
+    float: left;
+    width: 32%;
+    height: 22px;
+    overflow: hidden;
+}
+.soft-desc .til{
+    display: block;
+    padding: 10px 0 5px;
+    font-weight: bold;
+    height: 22px;
+    line-height: 22px;
+}
+.soft-desc,
+.soft-share {
+    float: left;
+}
+.soft-desc p{
+    line-height: 22px;
+}
+.soft-share{
+    height: 24px;
+    overflow: hidden;
+    margin-top: 6px;
+}
+.soft-share .soft-share-bar{
+    height: 22px;
+    border: 1px solid #e7e7e7;
+    border-radius: 3px;
+    background-position: 0 -407px;
+    float: right;
+    padding: 0 5px;
+    overflow: hidden;
+}
+.soft-share span.bds_more,.soft-share .bds_tools a{
+    padding-top: 5px;
+}
+.soft-share #bdshare{margin-top: -2px;}
+.soft-share .bds_tools a.shareCount{line-height: 10px;}
+
+.top-row{
+    padding: 0 19px;
+    margin-top: 20px;
+}
+
+.deta-top-box{
+    width: 363px;
+    height: 479px;
+    border: 1px solid #e9e9e9;
+}
+.deta-top-box .top-hd{
+    height: 56px;
+    border-bottom: 1px solid #e6e6e6;
+    position: relative;
+}
+.deta-top-box .top-hd i{
+    position: absolute;
+    width: 35px;
+    height: 25px;
+    top: 6px;
+    left: -5px;
+}
+.deta-top-box .deta-hot{
+    background-position: 0 -263px;
+}
+.deta-top-box .deta-hot i{
+    background-position: -200px -20px;
+}
+.deta-top-box .deta-hot .top-title{
+    color: #666;
+}
+.deta-top-box .deta-new{
+    background-position: 0 -319px;
+}
+.deta-top-box .deta-new i{
+    background-position: -240px -20px;
+}
+.deta-top-box .deta-new .top-title{
+    color: #fc4e86;
+}
+.deta-top-box .top-title{
+    padding: 4px 0 0 36px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.deta-top-box .top-ext{
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+}
+.deta-top-box .top-ext span{
+    float: left;
+    text-align: center;
+    color: #666;
+}
+.deta-top-box .top-ext .s1{
+    width: 198px;
+    padding-left: 33px;
+    text-align: left;
+}
+.deta-top-box .top-ext .s2{
+    width: 50px;
+}
+.deta-top-box .top-ext .s3{
+    width: 60px;
+}
+.soft-top-list .num-1,
+.soft-top-list .num-2,
+.soft-top-list .num-3 {
+    margin-top: 8px;
+}
+.soft-top-list .s-name {
+    width: 220px;
+}
+.soft-top-list .ico-down,
+.soft-top-list .ico-up{
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-top: 6px;
+}
+.soft-top-list .ico-down{
+    background-position: -240px 0;
+}
+.soft-top-list .ico-up{
+    background-position: -260px 0;
+}
+.soft-top-list .dl-num{
+    width: 95px;
+    text-align: center;
+    float: left;
+    line-height: 32px;
+}
+.soft-top-list .mix{
+    height: 89px;
+}
+.mix-pic{
+    padding: 0 20px;
+}
+.soft-top-list .top-txt{
+    width: 271px;
+    color: #999;
+    height: 44px;
+    overflow: hidden;
+    line-height: 22px;
+    padding-top: 4px;
+}
+.soft-top-list .top-pic{
+    margin-top: 7px;
+}
+.top-more{
+    height: 32px;
+    line-height: 32px;
+    padding-right: 20px;
+    text-align: right;
+}
+
+/* 评论 */
+.cmt-row{
+    padding: 0 19px;
+}
+.cmt-row .main-mark{
+    background-position: 0 -429px;
+}
+.cmt-row .main-mark .mark i{
+    font-weight: normal;
+}
+.cmt-row .mark-ext{
+    line-height: 36px;
+}
+.cmt-row .mark-ext a,
+.cmt-row .mark-ext i{
+    float: left;
+    line-height: 36px;
+    color: #fff;
+}
+.cmt-row .mark-ext i{
+    margin: 0 5px;
+}
+.cmt-row .mark-ext .qq-login{
+    background: url(/template/download/tiankong/img/btn.png) no-repeat -86px -58px;
+    width: 73px;
+    height: 20px;
+    font-size: 0;
+    text-indent: -999em;
+    overflow: hidden;
+    margin-top: 8px;
+}
+
+.cmt-form-box{
+    background: #f0f2f3;
+    padding: 8px 10px 10px;
+    overflow: hidden;
+    zoom: 1;
+    width: 730px;
+    position: relative;
+}
+.cmt-tags span,
+.cmt-tags a{
+    float: left;
+    height: 24px;
+    margin-bottom: 8px;
+    line-height: 24px;
+    color: #666;
+}
+.cmt-tags a{
+    background: #aeac8d;
+    color: #fff;
+    font-weight: bold;
+    padding: 0 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+    white-space: nowrap;
+}
+.cmt-tags .hot{
+    background: #fbc372;
+}
+.cmt-tags a:hover{
+    background: #fcbb5d;
+    color: #fff;
+    text-decoration: none;
+}
+.cmt-text{
+    _padding-top: 10px;
+}
+.cmt-text textarea{
+    background: #fff;
+    border: 1px solid #e9e9e9;
+    width: 718px;
+    height: 67px;
+    display: block;
+    padding: 5px;
+    overflow: hidden;
+}
+.cmt-reply-box{
+    padding: 10px 0 0;
+}
+.cmt-reply-box .cmt-text textarea{
+    width: 738px;
+}
+.cmt-btn{
+    padding: 10px 0 0;
+    text-align: right;
+}
+.cmt-btn button{
+    width: 86px;
+    height: 30px;
+    background: url(/template/download/tiankong/img/btn.png) no-repeat 0 -58px;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+}
+.cmt-btn button:hover{
+    background-position: -150px -160px;
+}
+.cmt-btn button:active{
+    background-position: -150px -190px;
+}
+
+.login-tips{
+    background: #f0f2f3;
+    position: absolute;
+    width: 750px;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    height: 125px;
+    display: none;
+    text-align: center;
+    line-height: 125px;
+    z-index: 999;
+    overflow: hidden;
+}
+
+.cmt-list li{
+    padding: 20px 0;
+    border-top: 1px solid #f4f3e8;
+    overflow: hidden;
+    zoom: 1;
+    padding-left: 0;
+    position: relative;
+    min-height: 50px;
+}
+.cmt-list .avatar{
+    width: 50px;
+    height: 50px;
+    overflow:hidden;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    display: none;
+}
+.cmt-list .cmt-name{
+    height: 16px;
+    overflow: hidden;
+    line-height: 16px;
+    margin-bottom: 8px;
+}
+.cmt-list .cmt-name a{
+    float: left;
+    font-weight: bold;
+}
+.cmt-list .cmt-date{
+    float: right;
+    color: #666;
+}
+.cmt-list .cmt-con p{
+    float: left;
+    width: 530px;
+    line-height: 22px;
+    color: #666;
+}
+.cmt-list .cmt-con .cmt-opt{
+    float: right;
+}
+.cmt-list .cmt-con a{
+    margin-left: 10px;
+}
+.cmt-list .cmt-reply{
+    background: #f0f2f3;
+    border: 1px solid #e9e9e9;
+    padding: 8px 8px 12px;
+    margin-top: 10px;
+    position: relative;
+    color: #666;
+}
+.cmt-list .cmt-reply i{
+    width: 10px;
+    height: 9px;
+    overflow: hidden;
+    background-position: -224px -7px;
+    position: absolute;
+    top: -9px;
+    *top: -8px;
+    left: 15px;
+}
+.btn-more-cmt{
+    height: 34px;
+    position: relative;
+
+}
+.btn-more-cmt .btn{
+    display: block;
+    height: 32px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 32px;
+    color: #666;
+    margin: 0 auto;
+    border: 1px solid #e9e9e9;
+    background-position: 0 -375px;
+    border-radius: 3px;
+    width: 218px;
+}
+.btn-more-cmt .btn:hover{
+    color: #777;
+    text-decoration: none;
+}
+.deta-gotop{
+    position: absolute;
+    right: 0;
+    top: 0;
+    line-height: 32px;
+}
+
+.cmt-loading{
+    line-height: 24px;
+    text-align: center;
+    padding: 10px;
+}
+.cmt-loading img{
+    vertical-align: -3px;
+    margin-right: 5px;
+}
+.no-cmt{
+    padding: 10px;
+    line-height: 24px;
+    text-align: center;
+    color: #999;
+}
+.dl-btn,
+.dl-br-btn{
+    width: 227px;
+    height: 66px;
+    background: url(/template/download/tiankong/img/down1.png) no-repeat;
+    font-size: 24px;
+    _display: inline;
+    float: left;
+    font-weight: 700;
+    display: block;
+    font-family: 'microsoft yahei';
+    text-shadow: 0 1px 1px #333;
+    color: #fff;
+    line-height: 66px;
+    text-indent: 78px;
+}
+.dl-btn:hover,
+.dl-br-btn:hover{
+    color: #fff;
+    text-decoration: none;
+    background: url(/template/download/tiankong/img/down2.png) no-repeat;
+}
+.down_box {
+    zoom: 1;
+    _display: inline;
+    width: 348px;
+    height: 92px;
+    float: right;
+}
+.down_box .btns {
+    width: 152px;
+    height: 38px;
+    display: block;
+    font-size: 14px;
+    text-indent: 45px;
+    color: #fff;
+    line-height: 39px;
+    font-family: 'Microsoft YaHei';
+    float: left;
+    margin: 0 0 10px 22px;
+}
+.down_box .btn_org {
+    background: url(/template/download/tiankong/img/btn_org.png) 0 0 no-repeat;
+}
+.down_box .btn_blue {
+    background: url(/template/download/tiankong/img/btn_blue.png) 0 0 no-repeat;
+}
+.down_box .btn_blue:hover {
+    background: url(/template/download/tiankong/img/btn_blue_h.png) 0 0 no-repeat;
+    text-decoration: none;
+}
+.down_box .btn_org:hover {
+    background: url(/template/download/tiankong/img/btn_org_h.png) 0 0 no-repeat;
+}
+.soft-ad-banner {
+    height: 90px;
+    padding: 0 20px 15px;
+    overflow: hidden;
+}
+.shoujidown {
+    position: absolute;
+    width: 210px;
+    height: 244px;
+    right: 7px;
+    background-color: #fff;
+    top: -50px;
+    text-align: center;
+    display: none;
+}
+.shoujidown .title {
+    font-size: 14px;
+    color: #343434;
+    text-align: center;
+    line-height: 30px;
+    font-family: "Microsoft YaHei";
+}
+.shoujidown .shoujibtndown {
+    display: block;
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #fff;
+    background-color: #0cb07e;
+    margin-top: 13px;
+    font-family: "Microsoft YaHei";
+}
+.shoujicode {
+    height: 176px;
+    position: relative;
+    border-bottom: 0;
+}
+.shoujicode .shoujidown {
+    display: block;
+}
+.shoujicode .soft-info-list{
+    margin-left: 15px;
+    margin-top: 22px;
+    width: 525px;
+}
+.shoujicode .soft-info-list .item {
+    font-size: 15px;
+}
+.shoujicode .down_box {
+    margin-left: 14px;
+    margin-top: 33px;
+    width: 450px
+}
+.shoujicode .down_box .btn_org,
+.shoujicode .down_box .btn_blue{
+    margin: 0 64px 10px 0;
+}
+.admiddle {
+    margin-bottom: 10px;
+    width: 790px;
+    height: 84px;
+    display: none;
+    overflow: hidden;
+}
+.adtop {
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 960px;
+    height: 84px;
+    display: none;
+    overflow: hidden;
+}
+.adfix {width:84px;display:none; overflow:hidden; height:180px; position: fixed;left: 50%;top: 164px;}.leftad {margin-left: -575px;}.rightad {margin-left: 491px;}
+.adfix .adclosed { position: absolute; font-size: 16px;color: #fff;top: 0;right: 0;width: 16px;height: 16px;line-height: 16px;text-align: center;background: #000; opacity: .3;filter:alpha(opacity=30);}
+.downadfix { display:none;width: 100%;height: 200px;bottom: 0;left: 0;position: fixed;z-index: 200;}
+.downadfix .downadcontent { width: 900px;height: 200px;margin: 0 auto;position:relative;overflow:hidden;}
+.downadfix .adclosed {display:block;width:39px;top:0;right:0;position:absolute;height:39px;background:url(/template/download/tiankong/img/closedad.png) 0 0 no-repeat;}

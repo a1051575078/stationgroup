@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+.second-menu{
+    width: 293px;
+    float:left;
+    clear:both;
+}
+.second-menu-title{
+    width:293px;
+    height: 105px;
+    line-height: 105px;
+    font-size: 26px;
+    color:#fff;
+    font-family:"\5FAE\8F6F\96C5\9ED1","\5B8B\4F53";
+    background: url(/template/company/putian/img/hd.jpg) no-repeat;
+    text-align: center;
+    font-weight:bold;
+
+}
+.second-menu-ct{
+    width: 293px;
+    padding-bottom:40px;border-bottom:2px solid #4866af;
+    padding-top:25px; background:#fafafa;
+}
+
+.Head{margin-bottom:0;border-bottom:none}

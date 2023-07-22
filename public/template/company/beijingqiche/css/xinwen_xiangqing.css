@@ -1,0 +1,124 @@
+
+
+
+.subcenter{
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	padding: 30px 0;
+	/* -webkit-transition: all .3s ease-in-out 0s;
+	-moz-transition: all .3s ease-in-out 0s;
+	-ms-transition: all .3s ease-in-out 0s;
+	-o-transition: all .3s ease-in-out 0s;
+	transition: all .3s ease-in-out 0s; */
+}
+.subcenter:after,
+.xinwx_box:after{
+	content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.xinwx_box{
+	width: 1200px;
+	margin: 0 auto;
+}
+.xinwx_box .xinwx_boxt{
+	width: 100%;
+	position: relative;
+}
+.xinwx_box .xinwx_boxt>h1{
+	font-size: 22px;
+	color: #333333;
+	text-align: center;
+	padding: 0 0 50px 0;
+	border-bottom: 1px solid #bfbfbf;
+	font-weight: normal;
+	word-wrap: break-word;
+	word-break: normal;
+}
+.xinwx_box .xinwx_boxt>div.in{
+	width: 100%;
+	position: relative;
+	height: 36px;
+}
+.xinwx_box .xinwx_boxt>div.in p{
+	float: left;
+	font-size: 14px;
+	color: #666666;
+	line-height: 36px;
+	text-transform: uppercase;
+}
+.xinwx_box .xinwx_boxt>div.in span{
+	float: right;
+	display: block;
+	font-size: 14px;
+	color: #666666;
+	line-height: 36px;
+}
+.bdsharebuttonbox{
+	float: right;
+	height: 36px;
+	line-height: 36px;
+}
+.bdsharebuttonbox>a{
+	margin: 10px 10px 6px 0 !important;
+	background-image: url(/template/company/beijingqiche/img/icons_2_16.png) !important;
+}
+.bd_weixin_popup{
+	box-sizing:content-box;
+	-moz-box-sizing:content-box;
+	-webkit-box-sizing:content-box;
+}
+
+/*content*/
+.xinwx_box .xinwx_boxc{
+	width: 100%;
+	margin: 30px 0;
+	word-wrap: break-word;
+	word-break: normal;
+}
+.xinwx_box .xinwx_boxc *{
+	max-width: 100%;
+}
+
+/*上下篇*/
+.xinwx_box .xinwx_boxb{
+	width: 100%;
+	border-top: 1px solid #bfbfbf;
+}
+.xinwx_box .xinwx_boxb>a{
+	display: block;
+	float: left;
+	font-size: 14px;
+	color: #666666;
+	width: 48%;
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+}
+.xinwx_box .xinwx_boxb>a.next{
+	text-align: right;
+	float: right;
+}
+.xinwx_box .xinwx_boxb>a:hover{
+	color: #d12519;
+}
+
+/*pc*/
+@media screen and (max-width: 1230px){
+	.subcenter{
+		width: 96%;
+	}
+	.xinwx_box{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 960px){
+
+}

@@ -1,0 +1,544 @@
+@charset "utf-8";
+ul,li{margin:0px;padding:0px;}
+a{    text-decoration: none !important;}
+
+.zgbl-body-top{background:url(/template/company/putian/img/newyear-2021-heng.png) center top no-repeat;width:100%;padding-top:16%; background-size:100%;}
+
+/*body{background:url(/template/company/putian/img/2020bg.png) no-repeat;padding-top:200px;background-size:100%;}
+.banner{width:1200px;margin:0 auto;height:310px !important;margin-bottom:10px;}
+.new_banner .f426x240 li img{height:320px !important;}*/
+
+/*header*/
+.pt-body{width:100%;font-family:"Microsoft Yahei";}
+.header{
+    z-index: 999;
+    width: 100%;
+    /*background:url(/template/company/putian/img/menubg.png) repeat;*/
+    top: 0;
+}
+.header-con{width:1200px;margin:auto;background:#fff;}
+.header-logo{float:left; margin-left:30px;}
+.header-menu{float:left;width:840px;height:90px;margin-left: 110px;}
+.menu-top{    font-size: 14px;
+    margin-top: 20px;
+    color:#adadad;height:20px;
+}
+.wzq{    float: right;
+    width: 87px;
+    background: url(/template/company/putian/img/wzq.png) no-repeat right center;
+    margin-right: 20px;}
+.wzq a{color:#adadad}
+.tzz{float:right;    margin-right: 25px; background: url(/template/company/putian/img/sj.png) no-repeat right center;width:55px;}
+.yy,.yythis{float:right; }
+.yy select{width:40px;border:0; background: url(/template/company/putian/img/sj.png) no-repeat right center; appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+
+    color: #adadad;margin-right: 10px;}
+.menu-con{    clear: both;
+    float: right;
+    margin-top: 9px;}
+.yy select::-ms-expand{ display: none; }
+
+.yythis{width:40px;border:0; background: url(/template/company/putian/img/sj.png) no-repeat right center;color: #adadad;margin-right: 10px;position: relative;}
+.yy{width:40px;border:0; background: url(/template/company/putian/img/sj.png) no-repeat right center;color: #adadad;margin-right: 10px;position: relative;}
+.yy ul{display: none;}
+.yy ul li{list-style: none;
+    background: none;}
+
+.yythis ul li{
+    list-style: none;
+    padding: 5px 9px;
+}
+
+
+
+
+.menu-con ul li{font-size:16px;    list-style-type: none;float:left;margin: 0 13px;    line-height: 42px;cursor: pointer;}
+.menu-con ul li.active{border-bottom:2px solid #4866af;color:#4866af;}
+.menu-con ul li:hover{border-bottom:2px solid #4866af;color:#4866af;}
+.header-other{float:right}
+
+
+
+/*banner*/
+.new_banner .f426x240{margin:0;padding:0;}
+.new_banner .f426x240 li{list-style-type: none;margin:0;padding:0;}
+.new_banner .f426x240 li img{width:100%;height: 446px;min-width:1200px;}
+.prev,.next{display:none;}
+.rslides_tabs {
+    position: absolute;
+    left: 43%;
+    bottom: -2%;
+    clear: both;
+    text-align: center;
+    z-index: 99999;
+}
+.rslides_tabs li {
+    display: inline;
+    float: none;
+    margin-right: 5px;
+}
+.rslides_tabs a {
+    width: 13px;
+    height: 12px;
+    background: url(/template/company/putian/img/banner-list.png) no-repeat;
+    text-indent: -5em;
+    overflow: hidden;
+    display: block;
+    float: left;
+    margin-left: 12px;
+    border-radius: 6px;
+}
+.rslides_tabs .rslides_here a {
+    background: url(/template/company/putian/img/banner-active.png) no-repeat;
+    width: 31px;
+}
+
+
+
+/*banner*/
+#banner {position:relative; z-index:2; width:100%; height:446px; overflow:hidden;}
+#banner .pics {position:relative; width:100%; height:100%; margin:0;}
+#banner .pics li {display:none; position:absolute; top:0; left:0; z-index:2; width:100%; height:100%; background:no-repeat center 0;background-size:100% 100%;}
+#banner .pics li a {display:block; width:100%; height:100%;}
+#banner .pics .b1 {/*display:list-item;*/ display:block;}
+#banner .btns a {display:block;position:absolute; top:50%; z-index:4; margin-top:-25px; width:60px; height:60px; -ms-transition:left 400ms, right 400ms; transition:left 400ms, right 400ms; -webkit-transition:left 400ms, right 400ms; -moz-transition:left 400ms, right 400ms; -o-transition:left 400ms, right 400ms;}
+#banner .btns .prev {left:-60px;}
+#banner .btns .next {right:-60px;;}
+#banner .btns .prev.on {left:120px;}
+#banner .btns .next.on {right:120px;}
+#banner .btns a span {position:absolute; top:0; left:0; width:100%; height:100%; -ms-transition:-ms-opacity 300ms;  transition:opacity 300ms;-webkit-transition:-webkit-opacity 300ms; -moz-transition:-moz-opacity 300ms; -o-transition:-o-opacity 300ms; cursor:pointer;}
+#banner .btns a span.off {-webkit-opacity:1; opacity:1; display:block\9;}
+#banner .btns a span.on {-webkit-opacity:0; opacity:0; display:none\9;}
+#banner .btns .prev .off {background:url(/template/company/putian/img/banner-left.png) no-repeat 0 0;}
+#banner .btns .prev .on  {background:url(/template/company/putian/img/banner-left-hover.png) no-repeat 0 0;}
+#banner .btns .next .off {background:url(/template/company/putian/img/banner-right.png) no-repeat 0 0;}
+#banner .btns .next .on {background:url(/template/company/putian/img/banner-right-hover.png) no-repeat 0 0;}
+#banner .btns a:hover .off {-webkit-opacity:0; opacity:0; display:none\9;}
+#banner .btns a:hover .on {-webkit-opacity:1; opacity:1; display:block\9;}
+#banner .g-wrap .idxs li.on{background:#4866af;width:34px;}
+#banner .g-wrap .idxs {float:left; height:100%;}
+#banner .g-wrap{position:absolute;z-index:9999;bottom:5%;left:50%;margin-left:-80px;overflow:hidden;height:30px}
+#banner .g-wrap .idxs li{width:13px;height:13px;float:left;margin: 30px 10px 0 0;list-style: none;cursor:pointer; border-radius:13px; background:#fff;  -ms-transition:background-color 500ms, margin-top 500ms, border-color 1000ms; transition:background-color 500ms, margin-top 500ms; transition:background-color 500ms, margin-top 500ms, border-color 500ms; -webkit-transition:background-color 500ms, margin-top 500ms, border-color 500ms; -moz-transition:background-color 500ms,  margin-top 500ms, border-color 500ms; -o-transition:background-color 500ms, margin-top 500ms, border-color 500ms;}
+
+
+
+/*news*/
+.content-news{width:1200px;margin:auto;margin-top: 100px;position:relative;}
+.picnews,.tabnews{width:555px;float:left;}
+.textnews{width:560px;float:right;padding-top: 5px;}
+.ztnews{width:375px;float:right; border-top: 2px solid #4866af;    background: #f5f5f5;
+    height: 275px;
+}
+.i-news{position: relative;}
+.i-news-content{}
+.i-news-item{position: relative;}
+.i-news-item-active{}
+.i-news-item-pic{width:100%;height:100%;}
+.i-news-item-pic img{width:100%;height:100%;}
+.i-news-item-title{
+    height: 46px;
+    position: absolute;
+    bottom: 0;
+    line-height: 46px;
+    background:url(/template/company/putian/img/tmbg.png) repeat;
+    width: 98%;
+    padding-left: 2%;
+    font-size: 16px;
+}
+.i-news-item-title a{color:#fff;}
+.i-news-nav{    position: absolute;
+    bottom: 0;
+    right: 20px;height:46px;line-height:46px;}
+.i-news-page{color:#fff;display:inline-block;padding:0 10px;    font-size: 16px;}
+.i-news-page-active{background:url(/template/company/putian/img/piclist-active.png) repeat;}
+
+.textnews .i-tabs{margin-top:10px;}
+.textnews .i-tabs .i-tabs-nav{}
+.textnews .i-tabs .i-tabs-nav .i-tabs-items{}
+.textnews .i-tabs .i-tabs-nav .i-tabs-items .i-tabs-item{font-size: 18px; padding: 5px 10px;color:#333;}
+.textnews .i-tabs .i-tabs-nav .i-tabs-items .i-tabs-item-active{background: #4866af;    border-radius: 5px;color:#fff;}
+.textnews .i-tabs .i-tabs-nav .i-tabs-items .i-tabs-item a{color:#333;}
+.textnews .i-tabs .i-tabs-nav .i-tabs-items .i-tabs-item-active a{color:#fff;}
+.textnews .i-tabs .i-tabs-nav span{font-size:18px;color:#cfcfcf;}
+.news-module{position: relative;margin-top: 18px;}
+.news-module-more{     position: absolute;
+    top: -45px;
+    right: 10px;
+    font-size: 22px;
+    color: #4866af;}
+.news-module-con{}
+.pnews-item{    margin-top: 25px;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 10px;}
+.pnews-item-title{font-size:16px;font-weight: bold;/* background:url(/template/company/putian/img/title.png) no-repeat left center; */}
+.pnews-item-title a{color:#4866af;}
+.pnews-item-sum{font-size: 14px;
+    line-height: 24px;
+    text-indent: 2em;
+    margin-top: 10px;}
+.news-item{
+    font-size: 16px;
+    line-height: 39px;
+}
+.news-item-title{float:left;width:80%;background:url(/template/company/putian/img/title.png) no-repeat left center;padding-left: 2%;}
+.news-item-title a{color:#333;}
+.news-item-date{float:right;}
+
+
+.tabnews .i-tabs{line-height: 48px;
+    border-top: 2px solid #ccc;}
+.tabnews .i-tabs .i-tabs-nav{border-bottom: 1px solid #ccc;}
+.tabnews .i-tabs .i-tabs-nav .i-tabs-items{}
+.tabnews .i-tabs .i-tabs-nav .i-tabs-items .i-tabs-item{    font-size: 22px;
+    margin: 5px 10px 0px;
+    display: inline-block;
+    line-height: 51px;}
+.tabnews .i-tabs .i-tabs-nav .i-tabs-items .i-tabs-item-active{    color: #4866af;
+    border-bottom: 2px solid #4866af;}
+
+
+
+.tabnews-module{    position: relative;}
+.tabnews-module-more{     position: absolute;
+    top: -54px;
+    right: 10px;
+    font-size: 22px;
+    color: #4866af;}
+.tabnews-module-con{}
+
+.tabnews-item{    font-size: 16px;
+    line-height: 38px;}
+.tabnews-item-title{float:left;width:78%;background:url(/template/company/putian/img/title.png) no-repeat left center;padding-left: 2%;}
+.tabnews-item-title a{color:#333;}
+.tabnews-item-date{float:right;width:20%;text-align: right;}
+.shu{font-size: 18px;color:#ccc;}
+
+.pic-module-title{position:absolute;font-size:32px;line-height:80px;top: -76px;left:50%;margin-left:-64px;}
+.pic-item{margin-bottom: 10px;}
+.pic-item-title{font-size:18px;font-weight:bold;line-height: 50px;/* height: 60px; */}
+.pic-item-title a{color:#333;}
+.pic-item-pic{width:225px;height:145px;float:left;}
+.pic-item-pic img{width:100%;height:100%;}
+.pic-item-sum{text-align:justify;text-indent:2em;font-size:16px;color:#666;line-height:26px;margin-top: 10px;}
+.pic-item-outer{width:320px;float:left;margin-left:10px;}
+.pic-item-date{font-size:16px;color:#666;line-height: 31px;}
+.news-zt-title{    font-size: 22px;
+    margin: 5px 10px 0px 22px;
+    display: inline-block;
+    line-height: 51px;
+    color: #4866af;
+}
+.i-news1{position: relative;}
+.i-news-content1{   }
+.i-news-item1{width:328px;height:110px;margin:auto;}
+.i-news-item-pic1,.i-news-item-pic1 img{width:100%;height:100%;}
+.news-zt-more{position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 22px;
+    color: #4866af;}
+.i-news-page1{display:inline-block;width:25px;height:6px;background:#ccc;margin-right: 5px;}
+.i-news-page-active1{background:#4866af;}
+.i-news-nav1{width: 95px;
+    margin: auto;}
+
+.zttext-item-module{width:328px;margin:auto;}
+.zttext-item{}
+.zttext-item-title{    font-size: 16px;
+    line-height: 30px;background: url(/template/company/putian/img/title.png) no-repeat left center;
+    padding-left: 3%;}
+.zttext-item-title a{color:#333;}
+/*product*/
+.product{
+    width:100%;
+    background:url(/template/company/putian/img/productbg.jpg) no-repeat top center;
+    height:540px;
+    margin-top: 30px;
+}
+.pro-con{width:1200px;margin:auto;}
+.protitcon{    line-height: 100px;}
+.pro-title{font-size: 26px;
+    float: left;    color: #4866af;
+    margin-right: 20px;
+    font-weight: bold;}
+.pro-sum{font-size:14px;
+    float: left;}
+.pro-more{   font-size: 14px;
+
+    background: url(/template/company/putian/img/pro-more.png) no-repeat;
+    width: 65px;
+    height: 26px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: -60px;
+    line-height: 26px;
+}
+.pro-more a{color:#fff;}
+
+.i-tabs-item  .cpa{    background: url(/template/company/putian/img/cpa-active.png) no-repeat left center;
+    line-height: 79px;
+    height: 79px;
+    display: block;
+    padding-left: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    color:#4866af;
+}
+.i-tabs-item .cpb{ background: url(/template/company/putian/img/cpb-active.png) no-repeat left center;
+    line-height: 79px;
+    height: 79px;
+    display: block;
+    padding-left: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    color:#4866af;
+}
+.i-tabs-item .cpc{ background: url(/template/company/putian/img/cpc-active.png) no-repeat left center;
+    line-height: 79px;
+    height: 79px;
+    display: block;
+    padding-left: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    color:#4866af;
+}
+.i-tabs-item  .cpd{ background: url(/template/company/putian/img/cpd-active.png) no-repeat left center;
+    line-height: 79px;
+    height: 79px;
+    display: block;
+    padding-left: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    color:#4866af;
+}
+
+.i-tabs-item  .cpe{ background: url(/template/company/putian/img/cpe-active.png) no-repeat left center;
+    line-height: 79px;
+    height: 79px;
+    display: block;
+    padding-left: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    color:#4866af;
+}
+
+
+
+
+.i-tabs-item-active .cpa{background: url(/template/company/putian/img/cpa.png) no-repeat left center;color:#FFF;}
+.i-tabs-item-active .cpb{background: url(/template/company/putian/img/cpb.png) no-repeat left center;color:#FFF;}
+.i-tabs-item-active .cpc{background: url(/template/company/putian/img/cpc.png) no-repeat left center;color:#FFF;}
+.i-tabs-item-active .cpd{background: url(/template/company/putian/img/cpd.png) no-repeat left center;color:#FFF;}
+.i-tabs-item-active .cpe{background: url(/template/company/putian/img/cpe.png) no-repeat left center;color:#FFF;}
+.i-tabs-zdxm {
+    position: relative;clear: both;
+}
+.i-tabs-zdxm .i-tabs-nav span {
+    display: block;
+}
+.i-tabs-zdxm .i-tabs-item {
+    height: 79px;
+    line-height: 78px;
+    font-size: 18px;
+    border: 1px solid #e5e5e5;
+    border-bottom: none;
+    padding-left: 22px;
+    color: #333;
+}
+.pro-con .i-tabs-container{    width: 671px;
+    float: right;
+    padding-top: 20px;}
+.pro-con .i-tabs .i-tabs-nav{    height: 399px;width:267px;}
+.pro-con .i-tabs .i-tabs-nav .i-tabs-items{    background: #fff;}
+
+.pro-con .i-tabs .i-tabs-nav .i-tabs-items .i-tabs-item-active{    background: url(/template/company/putian/img/zdxm-active.png) no-repeat;
+    color: #fff;
+    width: 256px;
+    border: none !important;
+    position: relative;
+    z-index: 9;}
+
+
+.zdxm-news-module{width: 936px;
+    height: 400px;
+    position: absolute;
+    right: 0;
+    top: 0px;}
+.zdxm-news-module-content {
+    position: relative;
+}
+.zdxm-left {
+    position: absolute;
+    background: url(/template/company/putian/img/zdxm-left.png) no-repeat;
+    width: 35px;
+    height: 65px;
+    z-index: 99;
+    top: 168px;
+    left: 24px;
+    display: none;
+}
+.zdxm-right {
+    position: absolute;
+    background: url(/template/company/putian/img/zdxm-right.png) no-repeat;
+    width: 35px;
+    height: 65px;
+    z-index: 99;
+    top: 168px;
+    right: 24px; display: none;
+}
+.zdxm-news-module-module {
+    width: 936px !important;
+    height: 400px!important;
+}
+.zdxm-news-item {
+    width: 936px;
+    height: 400px;
+    position: relative;
+}
+.zdxm-news-item-pic {
+    width: 936px;
+    height: 400px;
+}
+.zdxm-news-item-outer {
+    padding-right:50px;
+    position: absolute;
+    bottom: 0px;
+    width: 835px;
+    color: #fff;
+    padding-left: 50px;
+    background:url(/template/company/putian/img/cybj-title-bg.png) no-repeat;
+    padding-bottom:10px;
+    padding-top:20px;
+}
+.zdxm-news-item-title {
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+.zdxm-news-item-title a{    color: #fff;}
+
+.zdxm-news-item-sum {
+    font-size: 14px;
+    line-height: 22px;
+}
+/*other*/
+.other{height:420px;background:#f2f5f9;padding:40px 40px;}
+.other-module{    width: 1200px;
+    overflow: hidden;
+    margin:auto;
+}
+.other-module-con{}
+.other-item{
+    width: 375px;
+    margin-right: 35px;
+    float: left;
+
+}
+.other-item-pic{width:375px;height:228px;overflow:hidden;}
+.other-item-pic img{width:100%;height:100%;transition: all 1s;}
+.otherall{
+    width: 375px;
+    margin: 0 auto;
+    background: #fff;
+    /* margin-top: -30px; */
+    z-index: 99;
+    position: relative;
+}
+.other-item-title{
+    font-size:20px;
+    font-weight: bold;
+    height: 61px;
+    line-height: 70px;
+    text-align: center;
+}
+.other-item1 .other-item-title{background: url(/template/company/putian/img/cp-icon.png) no-repeat 133px 23px;}
+.other-item2 .other-item-title{background: url(/template/company/putian/img/jjfa-icon.png) no-repeat 110px 19px;}
+.other-item3 .other-item-title{background: url(/template/company/putian/img/fw-icon.png) no-repeat 133px 22px;}
+.other-item-title a{color:#333}
+.other-item-sum{
+    font-size: 16px;
+    color: #666;
+    line-height: 28px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    border-top: none;
+    /* text-indent: 2em; */
+    /* border-bottom: 2px solid #4866af; */
+    height: 120px;
+}
+.other-item3{margin-right:0;}
+.other-item:hover .other-item-pic img{    transform: scale(1.1);}
+
+/*footer*/
+.footermenu{width:100%;height:46px;background:#3c5591;line-height:46px;    margin-top: 40px;min-width:1200px;}
+.footermenu-con{width:1200px;margin:auto;}
+.footer{width:100%;height: 128px;background:#4866af;min-width:1200px;}
+.footer-con{width:1200px;margin:auto;}
+.footerlist{}
+.footerlist ul li{color:#fff;list-style-type: none;padding:0 10px;float: left;
+    line-height: 46px;font-size:14px;}
+.footerlist .fmshu{padding: 0 20px 0 10px;
+    font-size: 12px;
+    color: #5b76b7;}
+
+.footerlist ul li.fma{background:url(/template/company/putian/img/fma.png) no-repeat left center;    padding-left: 25px;
+    font-size: 16px;
+    font-weight: bold;}
+.footerlist ul li.fmb{background:url(/template/company/putian/img/fmb.png) no-repeat left center;padding-left: 20px;}
+.footerlist ul li.fmc{background:url(/template/company/putian/img/fmc.png) no-repeat left center;padding-left: 20px;}
+.footerlist ul li.fmd{background:url(/template/company/putian/img/fmd.png) no-repeat left center;padding-left: 20px;}
+.footerlist ul li.fme{background:url(/template/company/putian/img/fme.png) no-repeat left center;padding-left: 20px;}
+.footerlist ul li.fmf{background:url(/template/company/putian/img/fmf.png) no-repeat left center;padding-left: 20px;}
+.footerlist ul li.fmg{background:url(/template/company/putian/img/fmg.png) no-repeat left center;padding-left: 20px;}
+.footerlist ul li.fmh{background:url(/template/company/putian/img/fmh.png) no-repeat left center;padding-left: 20px;}
+.top{width:44px;height:40px;background:url(/template/company/putian/img/top.jpg) no-repeat;float: right;
+    text-align: center;
+    line-height: 28px;
+    color: #fff;}
+
+.ftall{padding-top: 8px;color:#c5cce2;font-size:14px;}
+.ftlogo{float:left;padding-top: 19px;}
+.fm{float:left;margin-left:25px;width:740px;}
+.fm ul li{
+    list-style-type: none;
+}
+.fmtop ul li{float:left;padding:0 5px;    letter-spacing: 3px;}
+.fmtop{
+    line-height: 30px;
+    height: 41px;
+    background:url(/template/company/putian/img/line.jpg) repeat-x bottom;
+}
+.fmbottom ul li{width:350px;float:left;line-height:32px;}
+.fmbottom{margin-top: 10px;}
+.yqlj{float:right;width:222px;padding-top: 15px;}
+.yqljt{color:#fff;    font-size: 16px;
+    font-weight: bold;    line-height: 30px;background:url(/template/company/putian/img/yqlj.png) no-repeat left center;padding-left:25px;}
+.yqljcd select{border:1px solid #6d85bf;border-radius: 5px;width:100%;box-sizing: border-box;background:#536fb4;color:#c5cce2;margin-top: 10px;padding: 6px 0;}
+/*
+@media screen and (max-width: 1920px) and (min-width: 1601px){
+.banner,.new_banner .f426x240 li img{height:520px;}
+}
+@media screen and (max-width: 1500px) and (min-width: 1367x){
+.banner,.new_banner .f426x240 li img{height:380px;}
+}
+@media screen and (max-width: 1366px) and (min-width: 1200px){
+.banner,.new_banner .f426x240 li img{height:360px;}
+}*/
+@media screen and (max-width: 1200px){
+    .other{padding:40px 0px;min-width: 1200px;}
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1500px){
+    #banner{height:400px;}
+}
+
+
+@media screen and (min-width: 1300px) and (max-width: 1400px){
+    #banner{height:360px;}
+}
+
+.DnnModule-11644{display:none}

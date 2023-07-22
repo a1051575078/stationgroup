@@ -1,0 +1,162 @@
+.web_logo{box-shadow: 0px 10px 55px 0px #e3e3e3;border-bottom:1px solid #e3e3e3;}
+.twoBanner img{width:100%;}
+/**/
+.dqwz{float:left;margin-left:40px;    font-size: 16px;color: #999999; line-height: 40px;margin-bottom:5px;}
+.dqwz>span>a{    font-size: 16px;color: #999999; line-height: 40px;}
+.ext_content{padding-bottom:50px;}
+.comBox{background:url(/template/company/maotai/img/2019071619355333872.png) no-repeat center;}
+/*导航*/
+.leftNav{width: 290px;}
+#id-0{padding-top:10px;}
+.leftNav h3{font-size: 24px;color: #343434; text-align: center;background: url(/template/company/maotai/img/2019060613492616565.png) center no-repeat; font-weight: bold; line-height: 45px;}
+.leftNav .leftList{width: 255px; float: right;}
+.leftNav .leftList .one{    box-shadow: 0px 10px 55px 0px #e3e3e3;}
+.leftNav .leftList .one .oneLi{text-indent: 10px;    padding-bottom:10px;}
+.leftNav .leftList .one .oneLi>a{font-size: 20px;color: #555; display: block; width: 190px; margin-left: 65px;  margin-right: 0; line-height:45px;}
+.leftNav .leftList .one .oneLi.yes>a{text-indent: 10px;border-bottom: 2px solid #8e060b;    font-weight: bold;    background: url(/template/company/maotai/img/2019060613480775738.png) no-repeat; background-position: 90%;}
+.leftNav .leftList .one .oneLi.yes>a{ color:#8e060b;}
+.leftNav .leftList .one .oneLi:hover a{color:#b80219;}
+.leftNav .leftList .one .oneLi.yes .two{display:block}
+.leftNav .leftList .one .two{display:none;}
+.leftNav .leftList .one .oneLi.yes .two .twoLi:last-child{border-bottom:none;}
+.leftNav .leftList .one .oneLi.yes .two .twoLi{border-bottom: 1px dashed #dfdfdf;text-indent: 80px;width: 80%;margin: 0 auto;padding:20px 0;}
+.leftNav .leftList .one .oneLi.yes .two .twoLi a{color:#333;font-size:16px;}
+.leftNav .leftList .one .oneLi.yes .two .twoLi:hover a{color:#0a64b9;}
+.leftNav .leftList .one .oneLi.yes .two .twoLi.on a{color:#0a64b9;}
+
+.flBox1 {width: 868px;}
+/*文章列表*/
+.conTitle{border-bottom:1px solid #eee;margin-bottom:24px;}
+.conTitle a{font-size:20px;color:#8e060b;font-weight:bold;border-bottom:2px solid #8e060b;display:inline-block;padding-bottom:10px;}
+flList1{overflow: hidden;}
+.flList1>li{float: left;width: 100%;background: #f7f7f7;}
+.flList1>li>span{float: left;line-height: 55px;color: #999999;font-size: 16px;    padding-right: 30px;padding-left: 20px;    }
+.flList1>li>a{float: left;line-height: 55px;color: #333333;font-size: 16px;}
+.flList1>li:hover span{color: #710304;}
+.flList1>li:hover a{color: #710304;font-weight: bold;}
+#id_1,#id_3,#id_5,#id_7,#id_9{background:transparent;}
+
+
+.newsTop{width: 100%;}
+.newsLeft{width: 420px;}
+.newsRight{width: 444px;}
+/*焦点信息*/
+.comBoxs{background:#f8f8f8;}
+.jdxx {padding:50px 0 70px 0;}
+.pic{width:468px;}
+.gswj {width:100%;}
+.jdxwB {padding:16px 0;box-shadow:2px 0px 20px rgba(170, 170, 170, .15);background:#fff;}
+.jdxwB .jdTit{background:url(/template/company/maotai/img/2019070917574415292.jpg) no-repeat;width:142px;height:142px;line-height: 140px;}
+.jdxwB .jdTit p{font-size:24px;font-weight:bold;color:#7d5341;margin-left: 20px;}
+.jdxwB .bd{width:80%;margin-top:26px;}
+.jdxwB .jdList {width:100%;}
+.jdxwB .jdList li{line-height:30px;position:relative;height:30px;}
+.jdxwB .jdList li i{background: #555; width: 3px;height: 3px; display: inline-block;position:absolute;top:14px;left:0px;border-radius:50%;}
+.jdxwB .jdList li a{font-size: 16px;color: #555;margin-left:12px;}
+.jdxwB .jdList li a:hover{color:#710304;}
+.jdxwB .jdList li span{position:absolute;right:0;top:0;font-size:15px;color:#555;}
+/*左边显示的轮播图片*/
+.newsBox{width:100%;position:relative;margin-top:40px;}
+.newsBox .HB{width:100%;height:280px;overflow:hidden;}
+.newsBox .HB .autoPlay li{float:left;position:relative;width:100%;height:280px;}
+.newsBox .HB .autoPlay li .Image{height:100%;background:#000;margin:0;}
+.newsBox .HB .autoPlay li .Image img{display:block;width:100%;height: 100%;margin:0 auto;object-fit:cover;}
+.newsBox .HB .autoPlay li .Title{position:absolute;bottom:0;left:0;z-index:30;width:100%;background:rgba(0,0,0,.5); margin: 0;}
+.newsBox .HB .autoPlay li .Title{background-image:url(/cctgroup/resource/cms/2017/11/xiaoHui.png)\9;}
+.newsBox .HB .autoPlay li .Title a{display:block;line-height:40px;font-size:16px;color:#fff;text-indent:1em}
+.newsBox .PLAYbtn{position:absolute;bottom:14px;right:15px;z-index:60}
+.newsBox .PLAYbtn ul li{display:inline-block;width:8px;height:8px;margin-right:.7em;border:1px solid #fff;border-radius:50%;cursor:pointer;text-indent:99em;overflow:hidden;}
+.newsBox .PLAYbtn ul li.on{width:8px;height:8px;background:#fff;}
+
+/*公司新闻、行业动态、媒体聚焦*/
+
+.Tab4{margin-top:40px;padding:12px 0;box-shadow:2px 0px 20px rgba(170, 170, 170, .15);line-height:40px;background:#fff;}
+.Tab4 li{float: left;margin-right:40px;}
+.Tab4 li:first-child{margin-left:20px;}
+.Tab4 li a{color:#a8a09d;font-size:20px;display:block;line-height:40px;}
+.Tab4 li.on a{color:#c0a062;font-weight:bold;font-size:24px;}
+.company1{display:none;}
+.company1 .companyList{padding:10px 20px 15px 20px ;box-shadow:2px 0px 20px rgba(170, 170, 170, .15);background:#fff;}
+.company1 .companyList li{line-height:32px;position:relative;}
+.company1 .companyList li i{background: #333; width: 5px;height: 5px; display: inline-block;position:absolute;top:14px;left:0px;border-radius:50%;}
+.company1 .companyList li a{font-size: 16px;color: #333;margin-left:12px;}
+.company1 .companyList li:hover a, .company1 .companyList li:hover i, .company1 .companyList li:hover span{color:#710304;}
+.company1 .companyList li span{position:absolute;right:0;top:0;font-size:15px;color:#333;}
+
+
+/*下面的文字显示部分*/
+
+.ghdtList{margin-top:40px;padding-bottom: 15px;box-shadow:2px 0px 20px rgba(170, 170, 170, .15);background:#fff;}
+.ghdtList .maolist {margin-top:10px;}
+.ghdtList .maolist li{line-height:30px;position:relative;}
+.ghdtList .maolist li i{background: #333; width: 5px;height: 5px; display: inline-block;position:absolute;top:13px;left:20px;border-radius:50%;}
+.ghdtList .maolist li a{font-size: 16px;color: #525252;margin-left:35px;}
+.ghdtList .maolist li a:hover{color:#000;}
+.ghdtList .maolist li span{font-size:15px;color:#333;position:absolute;right:20px;top:0;}
+.ghdtList .tzgls{width: 100%;height: 36px;line-height: 36px;}
+.ghdtList .tzgls .name{width: 160px;height: 36px;font-size: 22px;font-weight: bold;background: url(/template/company/maotai/img/2019071014430938104.jpg) no-repeat;}
+.ghdtList .tzgls .name span{margin-left:20px;}
+.ghdtList .tzgls a{font-size: 16px;color: #dbc9ac;margin-right:16px;}
+
+/*投资者关系*/
+.zxList{background:url(/template/company/maotai/img/2019071615195893171.png) no-repeat center;width:120px;height:154px;}
+.tzgLi{padding:24px 14px;text-align:center;}
+.tzgLi p{font-size:22px;color:#fff;font-weight:bold;}
+.tzgLi span{display:block;color:#f7f4ee;font-size:16px;margin:14px 0;}
+.tzgLi #times{color:#e1d3bb;font-size:16px;line-height:24px;}
+
+/*服务中心显示*/
+.fwzx-img img{margin: 40px auto;}
+
+/*手机端1200px*/
+@media only screen and (min-width: 100px) and (max-width: 1200px) {
+
+}
+
+
+/*手机端960px*/
+@media only screen and (min-width: 100px) and (max-width: 960px) {
+    .leftNav{display:none;}
+    .conRig{width:100%;margin-bottom:24px;}
+    .flBox1{width:100%;}
+    .flList1>li{padding:0 8px;box-sizing:border-box;}
+    .flList1>li>a{line-height:48px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width:74.5%;display:block;font-size:14px;}
+    .flList1>li>span{line-height:48px;float:right;padding:0;font-size:14px;}
+}
+
+
+/*手机端768px*/
+@media only screen and (min-width: 100px) and (max-width: 768px) {
+    .dqwz{width:100%;margin:0 auto;float:none;padding-bottom:1rem;}
+
+    /*公告公式*/
+    .jdxwB .jdTit{background:none;width:auto;height:auto;line-height:normal;float:none;}
+    .jdxwB .jdTit p{font-size:18px;margin-left: 0px;text-align:center;}
+    .jdxwB .bd{width:100%;margin-top:18px;}
+    .jdxwB .jdList li a{width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:block;}
+    .jdxwB .jdList li span{display:none;}
+
+    /*新闻轮播与tab*/
+    .newsLeft, .newsRight{width:100%;}
+    .newsBox{margin-top:24px;}
+    .newsBox .PLAYbtn{right:0;}
+    .newsBox .HB .autoPlay li .Title a{width:80%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+    .Tab4{margin-top:24px;}
+    .Tab4 li:first-child{margin-left:10px;}
+    .Tab4 li{margin-right:16px;}
+    .Tab4 li a, .Tab4 li.on a{font-size:18px;}
+
+    /*列表页*/
+    .company1 .companyList{padding:0;}
+    .company1 .companyList li a, .ghdtList .maolist li a{width:78%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:block;margin-left:18px;}
+    .ghdtList .maolist li i, .ghdtList .maolist li i, .company1 .companyList li i{left:6px;;}
+    .ghdtList .maolist li span{right:0;}
+    .ghdtList-schd{width:100% !important;margin-left:0!important;}
+    .maolist-zbcg li{width:100% !important;float:none;}
+    .ghdtList .tzgls a{margin-right:0;}
+    .maolist-zbcg .xian{display:none;}
+
+    /*服务中心显示*/
+    .fwzx-img img {width: 100%;}
+
+}

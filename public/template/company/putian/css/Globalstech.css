@@ -1,0 +1,143 @@
+.label { display: inline; padding: .2em .6em .3em; font-size: 90%; font-weight: 700; line-height: 1; color: #fff; text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: .25em; }
+.label[href]:hover,
+.label[href]:focus { color: #fff; text-decoration: none; cursor: pointer; }
+.label:empty { display: none; }
+.label-default { background-color: #999; }
+.label-default[href]:hover,
+.label-default[href]:focus { background-color: gray; }
+.label-primary { background-color: #428bca; }
+.label-primary[href]:hover,
+.label-primary[href]:focus { background-color: #3071a9; }
+.label-success { background-color: #5cb85c; }
+.label-success[href]:hover,
+.label-success[href]:focus { background-color: #449d44; }
+.label-info { background-color: #5bc0de; }
+.label-info[href]:hover,
+.label-info[href]:focus { background-color: #31b0d5; }
+.label-warning { background-color: #f0ad4e; }
+.label-warning[href]:hover,
+.label-warning[href]:focus { background-color: #ec971f; }
+.label-danger { background-color: #d9534f; }
+.label-danger[href]:hover,
+.label-danger[href]:focus { background-color: #c9302c; }
+.clear { clear: both; line-height: 0; font-size: 0; height: 0; }
+.blod { font-weight: bold; }
+.red { color: red; }
+.inline-block { display: inline-block; *display: inline; *zoom: 1; }
+.pull-right { float: right; }
+.pull-left { float: left; }
+.center { text-align: center; margin: 0 auto; }
+.dnnFormItem input::-webkit-input-placeholder, .dnnFormItem textarea::-webkit-input-placeholder { color: #999; }
+.dnnFormItem input:-moz-placeholder, .dnnFormItem textarea:-moz-placeholder { color: #999; }
+.dnnFormItem input::-moz-placeholder, .dnnFormItem textarea::-moz-placeholder { color: #999; }
+.dnnFormItem input:-ms-input-placeholder, .dnnFormItem textarea:-ms-input-placeholder { color: #999; }
+
+/*模块加载*/
+.module-loader { text-align: left; }
+.module-loader li { float: left; list-style-type: none; margin-top: 10px; }
+.module-loader ul { margin: 0 auto; overflow: hidden; }
+.module-loader .module .module-title { display: none; }
+.module-loader .module a { text-decoration: none; cursor: pointer; margin-left: 5px; display: inline; padding: .2em .6em .3em; font-size: 20px; font-weight: 700; line-height: 1; color: #fff; text-align: center; white-space: nowrap; vertical-align: baseline; -ms-border-radius: .25em; border-radius: .25em; background-color: #999; }
+.module-loader .module a :visited { text-decoration: none; }
+
+/*选择控件*/
+.Selector .dnnSecondaryAction { margin-left: 5px; padding-top: 8px; padding-bottom: 8px; }
+/*----------------------------上传控件-------------------------------*/
+/*----------------------------上传控件-------------------------------*/
+
+/*日期控件*/
+.datepicker { display: inline; }
+.dnnForm .dnnFormItem .dataPicker1 { width: 180px; background: url("/images/calendar.png") no-repeat right; }
+.dnnForm .dnnFormItem .dataPicker2 { width: 180px; background: url("/images/calendar.png") no-repeat right; }
+
+.dnnLabel + span.datepicker { display: inline; }
+.updatePanel-formItem,
+.dnnFormItem .RadAjaxPanel { display: inline-block; width: 460px; }
+.updatePanel-formItem .RadComboBox { width: 445px; }
+.updatePanel-formItem input { vertical-align: top; }
+
+.updatePanel2 .RadAjaxPanel { width: 550px; }
+
+.desc { color: #999; font-size: 12px; }
+
+
+textarea.multiLineRow2 { height: 26px; min-height: 26px; }
+/*表单*/
+
+.dnnForm .dnnFormItem .dnnLabel { width: 150px; }
+.dnnTextEditor { text-align: center; }
+.dnnTextEditor > div { text-align: left; margin: 0 auto; }
+.edui-editor textarea { max-width: 100%; }
+#FormEditActionButtons { position: fixed; bottom: 10px; right: 10px; }
+.RadListBox .rlbNoButtonText .rlbButtonText { font-size: 12px !important; }
+a.Button { text-align: center; }
+/*公共*/
+.toolbar-grid-wrapper { text-align: center; }
+.toolbar-grid-container { margin: 0 auto; width: 95%; text-align: left; }
+.RadToolBar .rtbInner .rtbUL { width: 100%; }
+/*RadGrid*/
+.RadGrid_Silk th.rgHeader { font-size: 12px; }
+.DnnModule { /*position: relative;*/ }
+.DnnModule em { font-style: normal; color: red; }
+.DnnModule input.Search { margin: 0; padding: 5px; }
+.VerifyCode { cursor: pointer; }
+
+/*aspnetpager分页控件*/
+.aspnetpager { float: right; }
+.aspnetpager:after { clear: both; }
+.aspnetpager-paginginfo { height: 30px; font-size: 12px; margin-top: 10px; text-align: right; }
+.aspnetpager-paginginfo a { text-decoration: none; display: inline-block; border: 1px solid #ddd; text-align: center; padding-left: 7px; padding-right: 7px; line-height: 20px; margin-right: 3px; }
+.aspnetpager-paginginfo a:hover { color: #fff; background: #036cb4; }
+.aspnetpager-paginginfo .aspnetpager-paging-active { border: 1px solid #ddd; display: inline-block; text-align: center; padding-left: 7px; padding-right: 7px; line-height: 20px; color: #fff !important; background: #036cb4; }
+.aspnetpager-custominfo { height: 30px; font-size: 12px; margin-top: 10px; text-align: right; border: 1px solid #ddd; padding-left: 7px; padding-right: 7px; line-height: 20px; }
+/*验证信息样式*/
+input.error { border: 2px dashed red; }
+div.error { border: 2px dashed red; }
+label.error { background: url("/DesktopModules/Globalstech/Images/unchecked.gif") no-repeat 0 2px; padding-left: 16px; padding-bottom: 2px; font-weight: bold; color: #EA5200; }
+label.valid { background: url("/DesktopModules/Globalstech/Images/checked.gif") no-repeat 0 2px; }
+.dnnFormItem label { }
+.dnnFormItem label.error { background-position: 0 0; }
+.dnnFormItem label.valid { background-position: 0 0; }
+.dnnFormItem input.error { border: 2px dashed red; }
+.dnnFormItem div.error { border: 2px dashed red; }
+
+
+/*提示消息*/
+
+.tip-container { z-index: 9999; height: 1px; min-width: 280px; }
+
+* html .tip-container { position: absolute; }
+.tip-item { height: auto; -ms-border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; color: #eee; padding-top: 20px; padding-bottom: 20px; padding-left: 6px; padding-right: 6px; font-size: 16px; display: block; position: relative; margin: 0 0 12px 0; -moz-box-shadow: 5px -4px 40px #000000; -webkit-box-shadow: 5px -4px 40px #000000; box-shadow: 5px -4px 40px #000000; text-shadow: 12px 12px 35px #f5dff5; font-family: 微软雅黑, 粗体, 宋体; letter-spacing: 2px; }
+.tip-item span { text-align: left; margin-left: 50px; font-weight: bold; }
+.tip-item-close { background: url(/DesktopModules/Globalstech/Images/close.gif); width: 22px; height: 22px; position: absolute; top: 7px; right: 20px; cursor: pointer; }
+.tip-item-image { width: 32px; height: 32px; position: absolute; top: 50%; margin-top: -16px; left: 10px; }
+.tip-item-image-info { background: url(/DesktopModules/Globalstech/Images/notice.png); }
+.tip-item-image-success { background: url(/DesktopModules/Globalstech/Images/success.png); }
+.tip-item-image-warning { background: url(/DesktopModules/Globalstech/Images/warning.png); }
+.tip-item-image-error { background: url(/DesktopModules/Globalstech/Images/error.png); }
+
+/**
+ * tip types
+ * pattern: tip-type-[value]
+ * where 'value' is the real value of the plugin option 'type' *
+ */
+.tip-type-info { color: white; background: #5bc0de; }
+.tip-type-success { color: white; background: #5cb85c; }
+.tip-type-warning { color: white; background: #f0ad4e; }
+.tip-type-error { color: white; background: #d9534f; }
+
+/**
+ * positions
+ * pattern: tip-position-[value]
+ * where 'value' is the real value of the plugin option 'position'
+ */
+.tip-position-top-full { position: fixed; left: 0px; top: 0px; width: 100%; }
+.tip-position-top-full .tip-item { -ms-border-radius: inherit; border-radius: inherit; }
+.tip-position-top-left { position: fixed; left: 20px; top: 20px; }
+.tip-position-top-center { position: fixed; top: 20px; left: 50%; margin-left: -140px; }
+.tip-position-top-right { position: fixed; top: 20px; right: 20px; }
+.tip-position-middle-left { position: fixed; left: 20px; top: 50%; margin-top: -40px; }
+.tip-position-middle-center { position: fixed; left: 50%; margin-left: -140px; margin-top: -40px; top: 50%; }
+.tip-position-middle-right { position: fixed; right: 20px; margin-left: -140px; margin-top: -40px; top: 50%; }
+.tip-position-bottom-left { position: fixed; left: 20px; margin-bottom: -40px; }
+.tip-position-bottom-right { position: fixed; right: 20px; bottom: 140px; }

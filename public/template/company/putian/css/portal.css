@@ -1,0 +1,67 @@
+.tzz a{color:#adadad;}
+.footerlist ul li a{color:#fff;}
+.fmtop ul li a{color:#c5cce2;}
+.menu-top{    position: relative;}
+.wzq-con{ position: absolute;
+    left: 355px;
+    top: 15px;
+    z-index: 99;display:none;}
+.yythis ul{
+    display: block;
+    position: absolute;
+    left: -21px;
+    z-index: 999;
+    width: 70px;
+    background: url(images/yyborder.png) no-repeat;
+    text-align: center;
+    height: 62px;
+}
+.header-logo img {    padding-top: 15px;}
+
+/*网站群*/
+
+ul,li{list-style-type:none;}
+.ptwzq-con{width: 1201px;padding-top:20px;float:left;clear:both;font-family:Arial,"\5FAE\8F6F\96C5\9ED1","\5B8B\4F53";font-size: 16px;}
+.con-frist{width: 386px;float:left;margin-top: 349px;height:45px;line-height:45px;background:url(images/onav1.png) no-repeat;text-indent: 89px;}
+.ptwzq-con a:link,.ptwzq-con a:visited,.ptwzq-con a:hover,.ptwzq-con a:active{color:#fff;text-decoration:none;}
+.con-right{width:716px;float:left;}
+.right-menu{width:736px;border-left:1px #3c5591 solid;position:relative;}
+.shelter-top,.shelter-bottom{position:absolute;width:2px;height:22px;background:#fff;}
+.shelter-top{left:-2px;top:0px;}
+.shelter-bottom{left:-2px;bottom:0px;}
+.right-menu ul.sub{margin:0;padding:0;}
+ul.sub li.wzq-2{width: 330px;padding-left: 57px;background: url(images/wzq-left-bg.png) no-repeat 0px 22px;margin-top: 5px;margin-bottom:5px;position:relative;}
+/**/
+ul.sub li.wzq-last-bg{width:262px;padding-left: 56px;/* background:url(images/wzq-left-bg.jpg) no-repeat; */margin-top:5px;margin-bottom:5px;margin-left:-1px;_margin-left:-1px;border-left:1px #1d4b89 solid;}
+ul.sub li.wzq-2 a{width:206px;line-height:34px;display:block;padding-left:16px;background-color:#b3b3b3;padding-right:40px;}
+/**/
+ul.sub li.wzq-click a{width: 270px;line-height: 44px;display:block;padding-left: 20px;background-color:#4866af;padding-right:40px;}
+ul.sub li.wzq-2 div.sub-1{padding-left:30px;width:637px;display:none;}
+ul.sub li.wzq-2 div.sub-1 ul.sub-1{margin:0;padding:0;}
+/**/
+ul.sub li.wzq-2 div.sub-1 ul.sub-1 li.wzq-last-bg{background:none;border:0;padding:0;}
+ul.sub li.wzq-2 div.sub-1 li.wzq-3{width:291px;margin-top:5px;margin-bottom:5px;clear:both;position:relative;margin-left:-1px;_margin-left:-1px;}
+
+.wzq-jia{width:291px;display:block;background:url(images/jiahao.png) center center no-repeat;position:absolute;top:0px;right: 12px;width: 30px;height: 44px;cursor:pointer;}
+.wzq-jian{background: url(images/janhao.png) center center no-repeat;}
+ul.sub li.wzq-2 div.sub-1 li.wzq-3 a{width: 270px;background-color:#f5f5f5;padding:0;padding-right:40px;padding-left:20px;color:#4866af;}
+div.sub-1 li.wzq-3 div.sub-2{padding-left:30px;width:291px;display:none;}
+div.sub-1 li.wzq-3 div.sub-2 ul.sub-2{width:637px;clear:both;}
+div.sub-1 li.wzq-3 div.sub-2 li.wzq-4{width:301px;margin-top:5px;position:relative;margin-left:-1px;_margin-left:-1px;}
+div.sub-1 li.wzq-3 div.sub-2 li.wzq-4 a{background-color:#6cba18;width:245px;padding:0;padding-right:40px;padding-left:16px;}
+div.sub-1 li.wzq-4 div.sub-3{padding-left:30px;width:607px;display:none;margin-top:5px;}
+div.sub-1 li.wzq-4 div.sub-3 li.wzq-5{width:301px;margin-top:5px;position:relative;margin-left:-1px;_margin-left:-1px;}
+div.sub-1 li.wzq-4 div.sub-3 li.wzq-5 a{background-color:#0387d2;width:245px;padding:0;padding-right:40px;padding-left:16px;}
+
+/*出资企业动态*/
+.czgy-left{float:left;width: 205px;height:45px;background: url(images/czqy-leftline.png) no-repeat;color:#fff;font-size:16px;line-height:45px;text-indent:25px;margin-top:400px;}
+.czgy-right{float:left;width:300px;border-left:1px #3c5591 solid;position:relative;}
+.hidden1,.hidden2,.hidden3{position:absolute;background:#fff;}
+.hidden1{top:0px;width:2px;height:22px;left:-1px;}
+.hidden2{bottom:0px;width:2px;height:29px;left:-1px;}
+.hidden3{bottom:0px;width:2px;height:29px;left:-1px;}
+.czqy-right-first{background: url(images/wzq-left-bg.png) no-repeat 0px 22px;padding-left: 50px;margin-bottom:8px;}
+.czqy-right-first>a{width: 270px;line-height: 44px;display:block;padding-left: 20px;color:#fff;font-size:16px;background:#4866af;}
+.czqy-second-outer{margin-left:50px;border-left:1px #3c5591 solid;padding-top:10px;position:relative;}
+.czqy-right-second{background: url(images/wzq-left-bg.png) no-repeat 0px 22px;padding-left: 50px;}
+.czqy-right-second>a{background:#4866af;padding:0;padding-left:20px;color:#fff;height:44px;line-height: 44px;display:inline-block;width:270px;margin-bottom:8px;font-size:16px;}

@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+.second-content{
+    width: 858px;
+    float:right;
+    clear:both;
+}
+.second-content-title{
+    width:858px;
+    height: 53px;
+    line-height: 53px;
+    font-size: 24px;
+    color:#333;
+    font-family:"\5FAE\8F6F\96C5\9ED1","\5B8B\4F53";
+    border-bottom:2px solid #f5f5f5;
+    text-align: left;
+    font-weight:bold;
+
+}
+.second-content-ct{
+    width: 858px;
+    padding-bottom:40px;
+    padding-top:15px;
+}
+
+.second-content-title .Head{margin-bottom:0;border-bottom:2px solid #4866af}
+.second-content-ct p{font-size:14px; color:#666;line-height:24px;text-align:justify;}
